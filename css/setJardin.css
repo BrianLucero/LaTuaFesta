@@ -1,0 +1,677 @@
+*{
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+}
+
+@media only screen and (max-width:375px ) and (min-width:200px) {
+    body {
+        background:radial-gradient(violet , pink  );
+    }
+    header{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+
+    }
+
+    .div_img{
+        border:black;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 80px;
+        background: black;
+        width: 100vw;
+        text-decoration: none;
+    }
+
+    .div_img a {
+        width: 100%;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    .div_img a img {
+        height: 80px;
+        width: 100%;
+    }
+
+    nav {
+         background-color: white;
+         
+    }
+
+    .boton_hbs {
+        border:1px solid black;
+        border-radius: 12px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .boton_hbs button {
+        color:black; 
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .links { 
+        padding: 8px;
+        margin: 0;
+        text-align: center;
+        background-color: white;  
+        margin-top: 10px;
+        margin-bottom: 15px;
+    
+        }
+    
+    .links li  {
+            background-color: white;
+            text-align: center;
+    }
+    
+    .links a {
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            text-align: center;
+    }
+
+    
+    .bordeM {
+        border-radius: 12px;
+        padding: 3px;
+        box-shadow: 1px 2px  2px 4px  gray;
+        margin: 10px;
+ 
+    }
+
+    .bordeM a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .encabezado{
+        width: 100%;
+        font-size: 30px ;
+        text-align: center;
+        padding: 5px;
+        border-radius: 12px;
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+
+
+    .bordes {
+        border: 1px solid black;
+        margin-top: 15px;
+    }
+
+    .container_card{
+        width: 100%;
+        height:auto;
+        background-color: rgb(235, 235, 235);
+        padding: 5p;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        flex-wrap: wrap;    
+        align-content:space-around;
+
+    }
+
+    .card{
+        width: 100%;
+        height: 200px;
+        max-width:145px;
+        min-width: 150px;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20; 
+    }
+
+    .card a {
+        background-color: white;
+        border-radius: 20px;
+        
+    }
+
+    .card a img {
+        width: 100%; 
+        margin: 0;
+        height: 170px;  
+        object-fit: cover;
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 20px;
+
+    }
+
+    .card a p {
+        background-color: white;
+    }
+
+
+   .redes_soc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   }
+
+    .footer h1{
+        width: 100%;
+    }
+
+    .redes_soc img {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 50%;
+    }
+
+    .redes {
+        float: left;
+    }
+
+    footer div p {
+        font-size: 15px;
+    }
+
+    .copyright {
+        background-color: white;
+        height: auto;
+        text-align: center;
+        font-size: 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    /* ---- javascript ---- */
+
+    .list {
+        height: 100%;
+        width: 85%; 
+        display: none; 
+       
+    }
+
+
+    .boton {
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .list button {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navMenu {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navMenu a{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    
+    }
+
+}
+
+@media only screen and (max-width:425px ) and (min-width:376px) {
+    header{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+    }
+
+    .div_img{
+        border:black;
+        padding: 5px;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 3px;
+        background: white;
+        align-items: center;
+        align-content:center;
+        justify-content: end;
+        width: 100vw;
+    }
+
+    .div_img a {
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 40px;
+        min-width: 40px;
+        margin-right: 10px;
+        background: white;
+
+    }
+
+    nav {
+         background-color: white;
+        }
+
+    .boton_hbs {
+        border:1px solid black;
+        border-radius: 12px;
+        background-color: white;
+    }
+
+    .boton_hbs button {
+        color:black;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+
+    .encabezado{
+        width: 100%;
+        background-color: white;
+        font-size: 38px ;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+
+    .container_card{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(235, 235, 235);
+       
+    }
+
+    .section {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        flex-wrap: wrap;    
+        align-content:space-around;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+        max-width:185px;
+        min-width: 185px;
+        margin:auto;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+        box-shadow: 0px 3px 6px 6px    rgb(203, 190, 190);;
+    }
+
+    .card a {
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .card a img {
+        width: 100%;            
+        object-fit: cover;
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 20px;
+ 
+
+    }
+
+    .card a p {
+        background-color: white;
+    }
+
+
+   .redes_soc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   }
+
+    .footer h1{
+        width: 100%;
+    }
+
+    .redes_soc img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .redes {
+        float: left;
+    }
+
+
+    .contacto svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contacto p {
+        font-size: 30px
+    }
+
+    footer div p {
+        font-size: 15px;
+    }
+
+    .copyright {
+        background-color: white;
+        height: auto;
+        text-align: center;
+        font-size: 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    /* ---- javascript ---- */
+
+    .list {
+        height: 100%;
+        width: 85%; 
+        display: none; 
+       
+    }
+
+
+    .boton {
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .list button {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navMenu {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navMenu a{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    
+    }
+
+}
+
+@media only screen and (max-width:768px ) and (min-width:426px) {
+    header{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+    }
+
+    .div_img{
+        border:black;
+        padding: 5px;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 3px;
+        background: white;
+        align-items: center;
+        align-content:center;
+        justify-content: end;
+        width: 100vw;
+    }
+
+    .div_img a {
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 40px;
+        min-width: 40px;
+        margin-right: 10px;
+        background: white;
+
+    }
+
+    nav {
+         background-color: white;
+    }
+
+    .boton_hbs {
+        border:1px solid black;
+        border-radius: 12px;
+        background-color: white;
+    }
+
+    .boton_hbs button {
+        color:black;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .header_img  {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .header_img img {
+        width: 100%;
+        height: 100%;
+        background-color:white;
+        padding: 5px;
+
+    }
+
+    .encabezado{
+        width: 100%;
+        background-color: white;
+        font-size: 38px ;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+
+    .container_card{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(235, 235, 235);
+    }
+
+    .section {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        flex-wrap: wrap;    
+        align-content:space-around;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+        max-width:185px;
+        min-width: 185px;
+        margin:auto;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+        box-shadow: 0px 3px 6px 6px    rgb(203, 190, 190);;
+    }
+
+    .card a {
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .card a img {
+        width: 100%;            
+        object-fit: cover;
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 20px;
+ 
+
+    }
+
+    .card a p {
+        background-color: white;
+    }
+
+
+   .redes_soc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   }
+
+    .footer h1{
+        width: 100%;
+    }
+
+    .redes_soc img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .redes {
+        float: left;
+    }
+
+
+    .contacto svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contacto p {
+        font-size: 30px
+    }
+
+    footer div p {
+        font-size: 15px;
+    }
+
+    .copyright {
+        background-color: white;
+        height: auto;
+        text-align: center;
+        font-size: 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    /* ---- javascript ---- */
+
+    .list {
+        height: 100%;
+        width: 85%; 
+        display: none; 
+       
+    }
+
+
+    .boton {
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .list button {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navMenu {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navMenu a{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    
+    }
+
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/polYpriv.css" media="screen" /> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title> Politica y Privacidad </title>
+</head>
+<body >
+
+    <!-- ----- MENU DESPLEGABLE CELULAR ----- --> 
+    
+    <div  id="navMenu"   class="list" ; >
+        <div class="boton">
+            <button type="button" width="100px" class="btn-close btn-close-white" aria-label="Close" onclick="Cerrar();" ></button>
+        </div>
+ 
+        <div class="navMenu" > 
+            <ul class=" bg-black">    
+                <li class="nav-link  "> 
+                    <a href="index.html">
+                        INICIO
+                    </a>
+                </li>
+           
+                <li class="nav-link  dropdown">
+                    <a class="nav-link active  text-light dropdown-toggle  "    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu bg-light">
+                        <li class="nav-item bg-light  ">
+                            <a class="dropdown-item bg-white text-dark  " href="#"> 
+                                AGENDA
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item  bg-white text-dark" href="#">
+                                SET DE JARDIN
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="#">
+                              ALMOHADONES
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="#">
+                              CARTUCHERAS
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="#">
+                              REMERAS DE CHICOS
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="#">
+                              REMERAS DE EMBARAZADAS
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="#">
+                              MOCHILAS
+                            </a>
+                        </li>
+                    </ul>
+                
+                </li>
+                <li class=" nav-link ">          
+                    <a href="">
+                        SERVICIOS
+                    </a>
+                </li>
+                <li  class="nav-link"  >
+                    <a href="devolucion.html">
+                        DEVOLUCIONES
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="">
+                        NOSOTROS             
+                    </a>  
+                </li>
+            </ul>
+        </div>
+    </div>
+             
+    <!-- ----- DIV COMPLETO ----- --> 
+
+    <div class="fondoImg" id="divCompleto">
+
+        <header>
+
+
+            
+
+            <!-- ----- LOGO NAVBAR ----- --> 
+           
+            <div class="div_img ">
+                <a href="index.html">
+                    <img src="IMG/logoNav.jpeg">
+                </a>   
+
+                <!--<a href="https://www.facebook.com/latuafestasublimacion" target="_blank">
+                    <img class="img" src="IMG/facebook.jpeg">
+                </a>
+                <a href="https://www.instagram.com/laadfs83/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                    <img class="img" src="IMG/instagram.jpeg">
+                </a>-->
+                
+                
+            </div>
+
+            <!-- ----- BOTON HAMBURGUESA ----- --> 
+
+            <nav id="menu"   class="navbar   boton_hbs " >            
+                <button class="navbar-toggler
+                text-light menu " onclick="Mostrar();" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent " aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon  "></span>
+                </button>
+                
+            </nav>
+
+            <!-- ----- NAVEGADOR PORTATIL  ------ -->
+            <nav class=" portatil navbar navbar-expand-lg bg-black w-100  justify-content-center mb-4 ">
+                <div class="container-fluid  justify-content-center ">
+
+                    <ul class="nav bg-black"> 
+                        <li class="nav-item">
+                            <a class="nav-link "       href="index.html">
+                                <button  type="button" class="btn btn-outline-light">INICIO</button>
+                            </a>
+                        </li>
+                        <li class="nav-item   dropdown">
+                            <a class="nav-link active  text-light dropdown-toggle  "    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button  type="button"  class="btn btn-outline-light"  > PRODUCTO</button>
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li class="nav-link   ">
+                                    <a class="dropdown-item    " href="#"> 
+                                        <button  type="button"  class="btn btn-outline-light  "> AGENDA</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item  " href="#">
+                                        <button  type="button" class="btn btn-outline-light"> SET DE JARDIN</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="#">
+                                        <button  type="button" class="btn btn-outline-light" > ALMOHADONES</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="#">
+                                        <button  type="button" class="btn btn-outline-light" > CARTUCHERA</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="#">
+                                        <button  type="button" class="btn btn-outline-light" > REMERAS DE CHICOS</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="#">
+                                        <button  type="button" class="btn btn-outline-light" > REMERAS DE EMBARAZADAS</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="#">
+                                        <button  type="button" class="btn btn-outline-light" > MOCHILA</button>
+                                    </a>
+                                </li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="servicio.html">
+                            <button  type="button" class="btn btn-outline-light"   > SERVICIOS</button>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">
+                            <button  type="button" class="btn btn-outline-light" > NOSOTROS</button>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>           
+
+        </header>
+
+        <!-- ----- POLITICA Y PRIVACIDAD ----- -->
+
+        <div class="polYpriv">
+
+            <div>
+                <h1>POLITICA Y PRIVACIDAD</h1>
+                
+                <hr>
+
+                <div>
+                    <li class="nav-link">
+                        <p>~ Con el primer pedido que se haga, usted automaticamente acepta nuestra polita de La Tus Festa y no podra hacer ninguna queja o demanda alguna.</p>
+                    </li>
+                    <hr>
+                    <li class="nav-link">
+                        <p>~ Los pedido de nuestros clientes quedan guardados y no se haran publicos.</p>
+                    </li>
+                    <hr>
+                    <li class="nav-link">
+                        <p>~ En caso de hacer un nuevo pedido y que no quiera que el destino llege a su domicilio. Informar su nueva ubicacion y/o direccion.</p>
+                    </li>
+                    <hr>
+                    <li class="nav-link">
+                        <p>~ Los pedidos se realizan por whatsapp y/o a traves de nuestras redes sociales .</p>
+                    </li>
+                    <hr>
+                    <li class="nav-link">
+                        <p>~ Las formas de pago se hacen mediante efectivo y/o mercado pago .</p>
+                    </li>
+                    <hr>
+                    <li class="nav-link">
+                        <p>~ En caso de DEVOLUCIONES visite el siguiente link:   <a href="devolucion.html">  DEVOLUCIONES</a> </p>
+                    </li>
+                    <hr>
+                </div>
+
+
+            </div>
+            
+        </div>
+
+
+     
+        <!-- ----- FOOTER ----- -->
+
+        <footer>
+            <div class="copyright"> LA TUA FESTA © | copyright </div>
+        </footer>
+
+    </div>
+
+
+
+    <script src="js/index.js"></script>
+
+
+  
+</body>
+</html>
