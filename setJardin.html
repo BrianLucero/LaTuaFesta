@@ -6,41 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/generalEst.css" media="screen" /> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
     <title> Set De Jardin </title>
 </head>
 <body>
     
-    <div  id="navMenu"   class="list" >
+    <div  id="navMenu"   class="list" ; >
         <div class="boton">
-            <button type="button" width="100px" class="btn-close btn-close-white" aria-label="Close" onclick="Cerrar();"></button>
+            <button type="button" width="100px" class="btn-close btn-close-white" aria-label="Close" onclick="Cerrar();" ></button>
         </div>
  
-        <div class="navMenu">       
-            <a href="index.html">
-                INICIO
-            </a>
-            <a href="productos.html">
-                PRODUCTOS
-            </a>
-            <a href="">
-                OFERTAS Y PROMOCIONES
-            </a>
-            <a href="">
-                SERVICIOS
-            </a>
-            <a href="">
-                DEVOLUCIONES
-            </a>
-            <a href="">
-                NOSOTROS             
-            </a>  
+        <div class="navMenu" > 
+            <ul class=" bg-black">    
+                <li class="nav-link  "> 
+                    <a href="index.html">
+                        INICIO
+                    </a>
+                </li>
+           
+                <li class="nav-link  dropdown">
+                    <a class="nav-link active  text-light dropdown-toggle  "    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu bg-light">
+                        <li class="nav-item bg-light  ">
+                            <a class="dropdown-item bg-white text-dark  " href="agenda.html"> 
+                                AGENDA
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item  bg-white text-dark" href="setJardin.html">
+                                SET DE JARDIN
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="almohadones.html">
+                              ALMOHADONES
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="cartuchera.html">
+                              CARTUCHERAS
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="remChicos.html">
+                              REMERAS DE CHICOS
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="remEmba.html">
+                              REMERAS DE EMBARAZADAS
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="mochilas.html">
+                              MOCHILAS
+                            </a>
+                        </li>
+                    </ul>
+                
+                </li>
+                <li  class="nav-link"  >
+                    <a href="devolucion.html">
+                        DEVOLUCIONES
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="nosotros.html">
+                        NOSOTROS             
+                    </a>  
+                </li>
+                <li class=" nav-link ">          
+                    <a href="servicios.html">
+                        SERVICIOS
+                    </a>
+                </li>  
+                <li class=" nav-link ">          
+                    <a href="polYpriv.html">
+                        POLITICA Y PRIVACIDAD
+                    </a>
+                </li>           
+            </ul>
         </div>
     </div>
 
@@ -51,6 +102,7 @@
         <a href="https://api.whatsapp.com/send?phone=5491126388894&amp;text= Quiero la Promo ..." title="Enviar mensaje directo Whatsapp" target="_blank" class="whatsappLink fixed-bottom  aWsp">
             <img src="IMG/whatsapp.png" class="wsp  rounded float-end " alt="WhatsApp Chat  ">
         </a>
+
         <header>
            
             <!-- ----- LOGO NAVBAR ----- --> 
@@ -100,7 +152,7 @@
                         <p>~ mantel, servilleta y toalla  $750
                         </p>
                         <hr>
-                        <p>~ mantel servilleta, toalla, y taza  $1250.
+                        <p>~ mantel, servilleta, toalla, y taza  $1250.
                         </p>
                         <hr>
                         <p>~ mantel, servilleta, toalla, taza y 
@@ -2897,731 +2949,717 @@
             </p>
         </main>
 
-        <div class="card ">
-            <a href="ralph.html">
+        <main class="container_card">
+            <div class="card ">
                 <img src="IMG/R/RALPH/ralph dulce juana.jpg">
-                <p class="parrafo"> RALPH
-                </p>                    
-            </a>
-        </div>
+            </div>
+            <p class="parrafo"> RALPH
+            </p>                    
+        </main>
 
-        <div class="card">
-            <a href="raya.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/R/RAYA/RAYA Y EL ULTIMO DRAGON ABIGAIL.jpeg">
-                <p class="parrafo"> RAYA
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo"> RAYA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="rayito.html">
+        <main class="container_card">
+            <div class="card">  
                 <img src="IMG/R/RAYITO/rayito dulce juana.jpg">
-                <p class="parrafo"> RAYITO
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo"> RAYITO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="red.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/R/RED/RED ABIGAIL.jpeg">
-                <p class="parrafo">RED
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">RED
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="ridleyJones.html">
+        <main class="container_card">
+            <div class="card">  
                 <img src="IMG/R/RIDLEY JONES/pack-jardin-ridley-jones diserapalo.jpg">
-                <p class="parrafo"> RIDLEY JONES 
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo"> RIDLEY JONES 
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="roblox.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/R/ROBLOX/pack-jardin-roblox-nena diserapalo.jpg">
-                <p class="parrafo"> ROBLOX
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo"> ROBLOX
+            </p>
+        </main>
 
-        
-
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">        
                 <img src="IMG/R/RACING/pack-jardin-racing diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">RACING
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/R/RALPH/pack-jardin-ralph diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
+            </div>
+            <p class="parrafo">RALPH
+            </p>
         </div>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/R/REY LEON/f57570a37487e5ee235872d550f86df5c904bb31b111cca4741adf88c35fe1b2114571.jpeg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">REY LEON
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/R/RICKY ZOOM/05e8f14160b0cdaf7e90cec9e02568b8683c16f0046a03c13cde8bffd72e37db114571.jpeg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">RICKY ZOOM
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/R/RIVER}/69c60028790a004392544ce875093f919191791e12415a6536f5cd316ce93e2b114571.jpeg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">RIVER
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/R/ROBLOX/2067dd2fe44fde81aa9dd0196d2047dc5539575fb6192b955141ce5d98415f5c114571.jpeg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">ROBLOX
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/R/ROBOTS/robots dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">ROBOTS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="sandia.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/sandia/sandia-1 dulce juana.jpg">
-                <p class="parrafo"> SANDIA
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo"> SANDIA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="sara.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/sara/sara-w-dulce juana.jpg">
-                <p class="parrafo">  SARA
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">  SARA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="shabyHic.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/shaby hic/pack-jardin-shabby-chic diserapalo.jpg">
-                <p class="parrafo">SHABY HIC
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SHABY HIC
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="sheriffCallies.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/sheriff callies/pack-jardin-sheriff-callie-s-wild-west diserapalo.jpg">
-                <p class="parrafo">SHERIFF CALLIES
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SHERIFF CALLIES
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="shimerShime.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/shimer shine/Muestra Set Jardín Shimmer y Shine.png">
-                <p class="parrafo">SHIMER SHINE
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SHIMER SHINE
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="shopkin.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/shopkin/pack-jardin-shopkins diserapalo.jpg">
-                <p class="parrafo"> SHOPKIN
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo"> SHOPKIN
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="simones.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/simones/2 simones-frutillita-301x301 dulce juana.jpg">
-                <p class="parrafo">SIMONES
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SIMONES
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="sing.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/sing/pack-jardin-sing-2 diserapalo.jpg">
-                <p class="parrafo">SING
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SING
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="sirena.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/sirena/pack-jardin-sirenita 1 diserapalo.jpg">
-                <p class="parrafo">SIRENA
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SIRENA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="sonic.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/sonic/6 sonic dulce juana.jpg">
-                <p class="parrafo">SONIC
-                </p>
-            </a>
-        </div>
-
-        <div class="card">
-            <a href="soyLuna.html">
+            </div>
+            <p class="parrafo">SONIC
+            </p>
+        </main>
+        
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/soy luna/pack-jardin-soy-luna diserapalo.jpg">
-                <p class="parrafo">SOY LUNA
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SOY LUNA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="spiritCaballo.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/spirit el caballo/d73f970f50a53eee6d9fe5d466df3e87f1abb704da60ddb4b775f27c40e9ae22114571.jpeg">
-                <p class="parrafo">SPIRIT EL CABALLO
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SPIRIT EL CABALLO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="squidGame.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/squid game/SQUID GAME ROSA  dulce juana.jpg">
-                <p class="parrafo">SQUID GAME
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SQUID GAME
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="stich.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/stich/4b7bce45ef3ef1ce593583fc404420a35a857f1dd4e2a1124efbcb72925b8a07114571.jpeg">
-                <p class="parrafo">STICH
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">STICH
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="strangerThings.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/stranger things/stranger things dulce juana.jpg">
-                <p class="parrafo">STRANGER THINGS
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">STRANGER THINGS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="superCute.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/super cute/pack-jardin-super-cute-heroes diserapalo.jpg">
-                <p class="parrafo">SUPER CUTE
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SUPER CUTE
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="superHeroesC.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/super heroes/superchicas-301x301 dulce juana.png">
-                <p class="parrafo">SUPER HEROES
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SUPER HEROES
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="superMonstruos.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/super monstruos/pack-jardin-super-monstruos diserapalo.jpg">
-                <p class="parrafo">SUPER MONSTRUOS
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SUPER MONSTRUOS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/sam el bombero/pack-jardin-bombero-sam diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SAM EL BOMBERO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/san lorenzo/pack-jardin-san-lorenzo diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SAN LORENZO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/san martin de tucuman/san martin de tucuman.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SAN MARTIN DE TUCUMAN
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/santiago de los mares/pack-jardin-santiago-de-los-mares diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SANTIAGO DE LOS MARES
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/scooby doo/scooby doo dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SCOOBY DOO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/shrek/794a76b1d8649e8b60de8a15e217d639a70c387baa9b78c4fd1fa01eef983cd3114571.jpeg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SHERK
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/simon el conejo/pack-jardin-simon diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SIMON EL CONEJO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/simones/1 simones dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SIMONES
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/snoopy/pack-jardin-snoopy diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SNOOPY
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/sonic/1 sonic dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SONIC
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/space jam/pack-jardin-space-jam diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SPACE JAM
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/spirit el caballo/spitir-1 dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SPIRIT EL CABALLO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/squid game/273027702_990818795119721_1468300831211838792_n.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SQUID GAME
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/star wars/baby-yoda-2 dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">STAR WARS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/stich/pack-jardin-stich2 diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">STICH
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/super heroes/pack-jardin-super-hero-girls diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SUPER HEROES
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/super wings/270152907_979659322902335_5676524359039126841_n.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SUPER WINGS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/superman/975ed594bb4279f817c8b0f5523362cda063c712418033385bc83c867c8d795e114571.jpeg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SUPERMAN
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/supermario bross/271610832_975264563341811_6826584883229210455_n.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">SUSSPERMARIO BROSS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="tennis.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tennis/tennis-nena-dulce juana.png">
-                <p class="parrafo"> TENNIS 
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo"> TENNIS 
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="tikTok.html">
+        <main class="container_card">
+            <div class="card">      
                 <img src="IMG/T/TIK TOK/271125983_975265443341723_775010168505602596_n.jpg">
-                <p class="parrafo">TIK TIK
-                </p>
-            </a>
-        </div>
-        
-        <div class="card">
-            <a href="tinkerBell.html">
+            </div>
+            <p class="parrafo">TIK TIK
+            </p>
+        </main>
+
+        <main class="container_card">        
+            <div class="card">
                 <img src="IMG/T/tinker bell/Muestra Set Jardín Tinkerbell.png">
-                <p class="parrafo">TINKER BELL
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TINKER BELL
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="topa.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/topa/topa dulce juana.jpg">
-                <p class="parrafo">TOPA
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TOPA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="tots.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tots/pack-jardin-tots diserapalo.jpg">
-                <p class="parrafo">TOTS
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TOTS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="tikTok.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/TOY STORY/pack-jardin-toy-story-nena diserapalo.jpg">
-                <p class="parrafo">TOY STORY
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TOY STORY
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="trolls.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/trolls/pack-jardin-trolls diserapalo.jpg">
-                <p class="parrafo">TROLLS
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TROLLS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/TALLERES/pack-jardin-talleres diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TALLERES
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card"> 
                 <img src="IMG/T/tarzan/tarzan-nino-301x301 dulce juana.png">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TARZAN 
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tayo/pack-jardin-tayo diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TAYO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tennis/tenis-dulce juana.png">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TENNIES
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
-                <img src="IMG/A/angry bird/angry-birds-dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
-
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/thanos/thanos- dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">THANOS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/thor/pack-jardin-thor diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">THOR
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tibucan/tibucan dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TIBUCAN
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tigre/pack-jardin-tigre diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TIGRE
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/TIK TOK/271533209_975265610008373_7350173229830591362_n.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TIK TOK
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/titipo/pack-jardin-titipo diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TITIPO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tom&jerry/pack-jardin-tom-y-jerry diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TOM Y JERRY
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tom&susAmigos/Talking Tom y sus amigos dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TOM Y SUS AMIGOS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/TomasELTren/pack-jardin-thomas-el-tren diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TOMAS EL TREN
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/topa/pack-jardin-topa diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TOPA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tortugasNinja/pack-jardin-tortugas-ninja diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TORTUGAS NINJA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/TOY STORY/pack-jardin-toystory4 diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TOY STORY
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tractor/pack-jardin-tractor-verde diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TRACTOR
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/TRANSFORMERS/1c77b7278e31d01a56a09d3347e65042b6c15476cdc18eee6e7236160444962b114571.jpeg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TRANSFORMERS
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/transporte/TRANSPORTE-1-301x301 dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TRANSPORTE
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/trenBob/pack-jardin-tren-bob diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TREN BOB
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/T/tweety/tweety-dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">TWEETY
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="unicornio.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/U/UNICORNIO/271535822_975265403341727_8480714947902974068_n.jpg">
-                <p class="parrafo">UNICORNIO
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">UNICORNIO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/U/ultraZombie/pack-jardin-ultra-zombie diserapalo.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">
+            </p>ULTRA ZOMBIE
+        </main>
 
-        <div class="card">
-            <a href="vacaLola.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/V/vacaLola/0c1ba13e676fc8422e0ca462ebacc5b472a3196681b9a4703a2d9a9fa089e20d114571.jpeg">
-                <p class="parrafo">VACA LOLA
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">VACA LOLA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="vampirina.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/V/vampirina/270780745_979659282902339_4476283138385441585_n.jpg">
-                <p class="parrafo">VAMPIRINA
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">VAMPIRINA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="vaquitaSanAntonio.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/V/vaquitaSanAntonio/pack-jardin-vaquita-san-antonio 1 diserapalo.jpg">
-                <p class="parrafo">VAQUITA SAN ANTONIO
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">VAQUITA SAN ANTONIO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="vera.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/V/vera/pack-jardin-vera diserapalo.jpg">
-                <p class="parrafo">VERA
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">VERA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="verano.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/V/verano/pack-jardin-verano diserapalo.jpg">
-                <p class="parrafo">VERANO
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">VERANO
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">  
                 <img src="IMG/V/vaquita/vaquita-dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">VAQUITA
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/V/venom/269631405_979658919569042_3717109971380959146_n.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">VENOM
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="winniePooh.html">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/W/winniePooh/pack-jardin-winnie-pooh diserapalo.jpg">
-                <p class="parrafo">WINNIE POOH
-                </p>
-            </a>
-        </div>
+            </div>
+            <p class="parrafo">WINNIE POOH
+            </p>
+        </main>
 
-        <div class="card">
-            <a href="#">
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/W/wally/wally-dulce juana.jpg">
-                <p class="parrafo">
-                </p>
-            </a>
-        </div>
-
-
-
-        
+            </div>
+            <p class="parrafo">WALLY
+            </p>
+        </main>       
     
 
 
@@ -3661,6 +3699,12 @@
                     </p>
                 </div>
                     
+            </div>
+            <div class="infoLinks">
+                <a href="devolucion.html">DEVOLUCIONES</a>
+                <a href="nosotros.html">NOSOTROS</a>
+                <a href="servicios.html">SERVICIOS</a>
+                <a href="polYpriv.html">POLITICA Y PRIVACIDAD </a>
             </div>
             <div class="copyright"> LA TUA FESTA © | copyright </div>
         </footer>
