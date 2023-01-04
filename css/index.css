@@ -7,7 +7,7 @@
 
 @media only screen and (max-width:375px ) and (min-width:200px) {
     body {
-        background:radial-gradient(pink ,white , violet  );
+        background:radial-gradient(pink , violet, white  );
     }
 
     html {
@@ -15,8 +15,9 @@
     }
 
     .fondoImg .aWsp {
-        margin-left: 73%;
-        margin-bottom: 2%;
+        margin-left: 230px;
+        margin-bottom: 70px;
+        margin-right: 10px;  
     }
 
     .wsp {
@@ -24,8 +25,7 @@
         box-sizing: border-box;
         width: 80px;
         height: 80px;
-        background-color: transparent;
-        margin-bottom: 8px;
+        background-color: transparent;   
     }
   
 
@@ -154,18 +154,22 @@
         border: none;
     }
 
-    .cartuchera {
-        
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .cartuchera {        
         border: none; 
         margin: 0PX;
-
     }
 
     .cartuchera a {
         margin: 0px;
         text-decoration: none; 
         color: black;
-        
     }
 
     .remChicos {
@@ -202,32 +206,41 @@
         margin: 0px;
         text-decoration: none;
         border: none;
-
     }
 
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
     
     .container_card {
         width: 100%;
         height: auto; 
         padding: 2px;
         margin-bottom: 50px;
-        margin-top: 20px;
-        box-shadow: 1px 3px 3px 6px gray;
-        border-radius: 8px;
-        border: 1px solid black;
-        z-index: 10;
-     
+        margin-top: 20px; 
+        border-radius: 8px; 
+        z-index: 10;     
     }
 
     .section {
         width: auto;
-        height:280px;
+        height:260px;
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;      
         overflow-x: auto;
         overscroll-behavior-inline: contain;
-        margin: 0px;       
+        margin: 0; 
+        background-color: white;   
+         
     }
 
     .section::-webkit-scrollbar{
@@ -239,26 +252,25 @@
         width: auto;
         margin-left: 8px;
         margin-right: 8px;
-        margin-top: 10px;
+        margin-top: 10px; 
     }
 
     .section .card a {
         width: 200px;
-        height: 220px;
+        height: 200px;
         text-decoration: none;
      }
-
 
     .card a img {
         width:100%;
         height: 100%; 
     }
 
-    .card a p {
+    .section .card  .parrafo{
         text-align: center;
         text-decoration: none;
         color: black;
-        height: 20px;
+        height: auto;
     }
 
     .container_card .verMas {
@@ -272,7 +284,6 @@
         color: black;
         margin: 0px;
     }
-
 
     .redes_soc {
     display: flex;
@@ -303,21 +314,31 @@
 
     footer .infoLinks {
         width: 100%;
-        height: 30px;
+        height: auto;
         background-color: black;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction:row; 
+        flex-wrap: wrap;      
         justify-content:space-around;
         align-items: center;
         padding: 8px;
-
     }
 
     .infoLinks a {
         color: white;
         text-decoration: none;
         font-size: 8px;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap; 
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
     }
 
     .copyright {
@@ -325,7 +346,7 @@
         color: white;
         height: auto;
         text-align: center;
-        font-size: 15px;
+        font-size: 15px; 
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -430,21 +451,21 @@
 @media only screen and (max-width:425px ) and (min-width:376px) {
 
     body {
-        background:radial-gradient(pink ,white , violet  );
+        background:radial-gradient(pink , violet, white  );
     }
 
     .fondoImg .aWsp {
-        margin-left: 72%;
-        margin-bottom: 9%;
+        margin-left: 310px;
+        margin-bottom: 80px;
+        margin-right: 15px;
     }
 
     .wsp {
         object-fit: cover;
         box-sizing: border-box;
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         background-color: transparent;
-        margin-bottom: 15px;
     }
 
     header{
@@ -576,18 +597,22 @@
         border: none;
     }
 
-    .cartuchera {
-        
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .cartuchera {        
         border: none; 
         margin: 0PX;
-
     }
 
     .cartuchera a {
         margin: 0px;
         text-decoration: none; 
-        color: black;
-        
+        color: black;        
     }
 
     .remChicos {
@@ -624,29 +649,40 @@
         margin: 0px;
         text-decoration: none;
         border: none;
+    }
 
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
     }
 
     .container_card{
         width: 100%;
         height: auto; 
-        padding: 8px;
+        padding: 4px;
         margin-bottom: 50px;
-        margin-top: 20px;
-        box-shadow: 1px 3px 3px 6px gray;
+        margin-top: 20px; 
         border-radius: 8px;
+        z-index: 10;
     }
 
     .section {
-        width: 100%;
-        height: 280px;
+        width: auto;
+        height: 300px;
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;      
         overflow-x: auto;
         overscroll-behavior-inline: contain;
-        margin: 5px;  
-        border :1px solid black
+        margin: 0; 
+        background-color: white;    
     }
 
     .section::-webkit-scrollbar{
@@ -658,30 +694,26 @@
         width: auto;
         margin-left: 8px;
         margin-right: 8px;
-        margin-top: 10px;
-        border: 1px solid red;
+        margin-top: 10px; 
     }
 
     .card a {
-        width: 220px;
-        height: 210px;
-        margin: 8px;
+        width: 230px;
+        height: 240px; 
         text-decoration: none; 
     }
 
     .card a img {
         width: 100%;  
-        height: 170px;     
- 
-
+        height: 100%; 
     }
 
-    .card a p {
+    .section .card  .parrafo {
         text-align: center;
         text-decoration: none;
         color: black;
-        height: 10px;
-        font-size: 14px;
+        height: auto;
+        font-size: 18px;
     }
 
     .container_card .verMas {
@@ -694,7 +726,7 @@
         text-decoration: none;
         color: black;
         margin: 0px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
    .redes_soc {
@@ -739,7 +771,7 @@
 
     footer .infoLinks {
         width: 100%;
-        height: 30px;
+        height: auto;
         background-color: black;
         display: flex;
         flex-wrap: wrap;
@@ -753,7 +785,18 @@
     .infoLinks a {
         color: white;
         text-decoration: none;
-        font-size: 8px;
+        font-size: 10px; 
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap;        
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
     }
 
     .copyright {
@@ -869,22 +912,18 @@
         background:white;
     }
 
-
     .fondoImg .aWsp {
-        margin-left: 72%;
-        margin-right: 20px;
-        margin-bottom: 5%; 
-        
+        margin-left: 610px;
+        margin-right: 45px;
+        margin-bottom: 110px; 
     }
 
     .wsp {
         object-fit: cover;
         box-sizing: border-box;
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
         background-color: transparent;
-        margin-bottom: 35px;
-        margin-right: 30px; 
     }
 
 
@@ -901,7 +940,7 @@
     .fondoImg {
         margin-left: 45px;
         margin-right: 45px;
-        background:radial-gradient(pink ,white , violet  );
+        background:radial-gradient(pink , violet, white  );
     }
 
     .div_img{ 
@@ -1020,18 +1059,22 @@
         border: none;
     }
 
-    .cartuchera {
-        
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .cartuchera {        
         border: none; 
         margin: 0PX;
-
     }
 
     .cartuchera a {
         margin: 0px;
         text-decoration: none; 
-        color: black;
-        
+        color: black;        
     }
 
     .remChicos {
@@ -1068,37 +1111,46 @@
         margin: 0px;
         text-decoration: none;
         border: none;
-
     }
 
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
 
     .container_card{
         width: 100%;
         height: auto; 
-        padding: 8px;
+        padding: 0px;
         margin-bottom: 50px;
         margin-top: 20px;
-        box-shadow: 1px 3px 3px 6px gray;
         border-radius: 8px;
-     
+        z-index: 10;     
     }
 
     .section {
-        width: 100%;
-        height: 280px;
+        height: 350px;
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;      
         overflow-x: auto;
         overscroll-behavior-inline: contain;
-        margin: 8px;  
+        margin: 0;  
+        background-color: white;   
     }
 
     .section::-webkit-scrollbar{
         width: 0;
     }
 
-    .card{
+    .section .card{
         height: 100%;
         width: auto;
         margin-left: 8px;
@@ -1106,24 +1158,23 @@
         margin-top: 10px;
     }
 
-    .card a {
+    .section .card a {
         width: 250px;
-        height: 220px;
-        margin: 8px;
+        height: 280px; 
         text-decoration: none;
     }
 
     .card a img {
         width: 100%;  
-        height: 210px; 
+        height: 100%; 
     }
 
-    .card a p {
+    .section .card  .parrafo {
         text-align: center;
         text-decoration: none;
         color: black;
         height: 20px;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .container_card .verMas {
@@ -1136,9 +1187,8 @@
         text-decoration: none;
         color: black;
         margin: 0px;
-        font-size: 18px;
+        font-size: 20px;
     }
-
 
    .redes_soc {
     display: flex;
@@ -1152,8 +1202,8 @@
     }
 
     .redes_soc img {
-        width: 70px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
         margin: auto;
         margin-top: 5px;
         margin-bottom: 10px;
@@ -1161,8 +1211,6 @@
         margin-right: 25px;
         border-radius: 50%;
     }
- 
-
 
     .contacto svg {
         width: 35px;
@@ -1179,21 +1227,31 @@
 
     footer .infoLinks {
         width: 100%;
-        height: 30px;
+        height: auto;
         background-color: black;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction:row; 
+        flex-wrap: wrap;      
         justify-content:space-around;
         align-items: center;
         padding: 8px;
-
     }
 
     .infoLinks a {
         color: white;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 16px;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap; 
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
     }
 
     .copyright {        
@@ -1304,53 +1362,70 @@
 
     body {
         background:white;
-        margin: 0;
     }
 
     .fondoImg {
-        background:radial-gradient(pink ,white , violet  );
+        background:radial-gradient(pink , violet, white  );
         margin-left: 50px;
         margin-right: 50px;
     }
 
     .fondoImg .aWsp {
         margin: 0;
-        margin-left: 77.5%;
-        margin-right: 12px;
-        margin-bottom: 3.5%;
+        margin-left: 850px;
+        margin-right: 55px;
+        margin-bottom: 80px;
     }
 
     .wsp {
         object-fit: cover;
         box-sizing: border-box;
-        width: 150px;
-        height: 150px;
-        background-color: transparent;
-        margin-bottom: 10px;
-        margin-right: 12px;         
+        width: 110px;
+        height: 110px;
+        background-color: transparent;      
     }
 
     header{ 
         width: 100%;  
-        height: 20px;     
+        height: auto;     
         display: flex;
-        margin-top:350px ;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center; 
-        align-content: center; 
-        margin-top: 699px;
+        justify-content: space-around; 
+        align-content: center;
+        margin: auto; 
     }  
 
     header .portFon  {
         width: 100%;
         height: auto;
-        background:radial-gradient(pink ,white , violet  );
+        background:radial-gradient(pink , violet, white  );
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+    header .portFon .port {
+        display: flex;
+        justify-content: end;
+    }
+
+    .portFon .loFondo { 
+        display: flex;
+        margin: auto;       
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .portFon .loFondo img {
+        width:140px;
+        height: auto;
     }
 
     .div_img{ 
         margin: 0;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         height: 120px;
         background: black;
@@ -1370,7 +1445,7 @@
         margin: 0;
         height: 200px;
         width: 100%;    
-        background:radial-gradient(pink ,white , violet  );   
+        background:radial-gradient(pink , violet, white  );   
  
     }
 
@@ -1398,10 +1473,9 @@
     .header_img {
         width: 100%;
         height: 450px;
-        margin-top: 0px;
-        margin-bottom: 680px;
+        margin-top: 0px; 
         padding: 0px;
-        background:radial-gradient(pink ,white , violet  );
+        background:radial-gradient(pink , violet, white  );
     }
 
     .header_img img {
@@ -1417,8 +1491,7 @@
         width: 100%;
         height: auto; 
         font-size: 50px ;
-        text-align: center;
-        padding: 5px;  
+        text-align: center; 
     }
 
     .encabezado a {
@@ -1428,14 +1501,13 @@
     .agendaS {   
         background-color: transparent; 
         width: 100%; 
-        height:480px;
-        margin-top: 10px; 
+        height:460px;
         margin: 0;
     }
 
     .agendaS .card {
-        width: 430px;
-        height: 430px;
+        width: 400px;
+        height: 400px;
         margin: auto;
         background-color: transparent;
         text-decoration: none;
@@ -1446,13 +1518,13 @@
         color: black;
         text-decoration: none;
         margin: auto; 
-        width: 410px;
-        height: 410px;
+        width: 380px;
+        height: 380px;
     }
 
     .agendaS .card a img {
-        width: 360px;
-        height: 360px;
+        width: 320px;
+        height: 320px;
         margin: 0;
     }     
 
@@ -1487,9 +1559,17 @@
         border: none;
     }
 
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
     .cartuchera {        
         border: none; 
-        margin: 0PX;
+        margin: 0;
+        color: black;
     }
 
     .cartuchera a {
@@ -1534,18 +1614,27 @@
         border: none;
     }
 
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
 
     .container_card {
         background-color: transparent;
         width: 100%;
         height: auto; 
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-top: 30px;
         display: flex;
         flex-flow: row wrap; 
-        justify-content: center;
-        border: 30px;
-     
+        justify-content: center;             
     }
 
     .section {
@@ -1553,23 +1642,22 @@
         height:auto; 
         margin: auto;    
         display: flex;
-        flex-flow: row wrap; 
-        justify-content: center;
-        padding: 9px;
-        background-color: transparent;       
+        flex-wrap: wrap;
+        justify-content: center;  
+        background-color: white;      
     }
 
     .section .card {
         display: flex;
-        flex-flow: row wrap; 
+        flex-wrap: wrap; 
         justify-content: center;
         height: auto;
-        width: 240px;
-        margin: auto; 
+        width: 180px;
         margin-top: 25px;  
         background-color: transparent;  
-        margin-left: 25px;
-        margin-right: 25px; 
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 25px; 
     }
 
     .section .card:hover {
@@ -1580,30 +1668,28 @@
 
     .section .card a {
         width: 100%;
-        height:280px;
+        height:270px;
         margin: auto;
-        text-decoration: none;
+        text-decoration: none; 
      }
 
     .card a img {
         width:100%;
-        height:240px; 
-        margin: auto; 
-
+        height:200px;  
+        margin: auto;
     }
 
-    .card a .parrafo {
+    .section .card  .parrafo {
         text-align: center;
         text-decoration: none;
-        color: black;
-        height: 20px;
-        font-size: 20px;
-        margin-bottom: 80px;
+        color: black;  
+        height: auto;  
+        font-size: 18px;
     }
 
     .container_card .verMas {
         text-align: center;
-        margin: 0px;
+        margin: 0;
         margin-top: 20px;
         text-align: center;        
       }
@@ -1612,7 +1698,7 @@
         text-decoration: none;
         color: black;
         margin: 0px;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     
@@ -1628,8 +1714,8 @@
     }
 
     .redes_soc img {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         margin: auto;
         margin-top: 5px;
         margin-bottom: 10px;
@@ -1637,12 +1723,10 @@
         margin-right: 25px;
         border-radius: 50%;
     }
- 
-
-    
+     
     .contacto svg {
-        width: 55px;
-        height: 55px;
+        width: 50px;
+        height: 50px;
     }
 
     .contacto p {
@@ -1655,7 +1739,7 @@
 
     footer .infoLinks {
         width: 100%;
-        height: 30px;
+        height: auto;
         background-color: black;
         display: flex;
         flex-wrap: wrap;
@@ -1669,7 +1753,18 @@
     .infoLinks a {
         color: white;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 11px;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap; 
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
     }
 
     .copyright {
@@ -1718,27 +1813,25 @@
     }
 
     .fondoImg {
-        background:radial-gradient(pink ,white , violet  );
+        background:radial-gradient(pink , violet, white  );
         margin-left: 50px;
         margin-right: 50px;
     }
 
 
     .fondoImg .aWsp {
-        margin-left: 80%;
-        margin-right: 80px;
-        margin-bottom: 6%;  
+        margin-left: 850px;
+        margin-right: 60px;
+        margin-bottom: 80px;  
 
     }
 
     .wsp {
         object-fit: cover;
         box-sizing: border-box;
-        width: 150px;
-        height: 150px;
-        background-color: transparent;
-        margin-bottom: 10px;
-        margin-right: 25px;    
+        width: 120px;
+        height: 120px;
+        background-color: transparent;  
     }
 
     header{ 
@@ -1746,25 +1839,48 @@
         height: auto;     
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;         
+        justify-content: center; 
+        align-content: center; 
         margin: auto; 
     }
 
     header .portFon  {
         width: 100%;
         height: auto;
-        background:radial-gradient(pink ,white , violet  );
+        margin: auto;
+        background:radial-gradient(pink , violet, white  );
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+
+    header .portFon .port {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portFon .loFondo { 
+        margin: auto;       
+        position: absolute;
+        left: 30px;
+        top: 0;
+    }
+
+    .portFon .loFondo img {
+        width:140px;
+        height: auto;
     }
 
     .div_img{ 
         margin: 0;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         height: 250px;
         background: black;
         width: 100%;
         text-decoration: none; 
-      
     }
 
     .div_img a {
@@ -1777,7 +1893,8 @@
 
     .div_img a img {
         height: 250px;
-        width: 100%;  
+        width: 100%; 
+     
     }
 
     .boton_hbs {
@@ -1802,7 +1919,7 @@
     }
 
     .header_img {
-        width: 100vw;
+        width: 100%;
         height: 580px;
         margin-top: 200px;
         margin-bottom: 50px;
@@ -1840,8 +1957,8 @@
     }
 
     .agendaS  .card  {
-        width: 500px;
-        height: 500px; 
+        width: 480px;
+        height: 480px; 
         margin: auto;
         background-color: transparent;
         text-decoration: none;
@@ -1858,8 +1975,8 @@
     }
 
     .agendaS .card a img {
-        width: 420px;
-        height: 420px;
+        width: 360px;
+        height: 360px;
         margin: 0;
     }     
 
@@ -1892,6 +2009,13 @@
     .almohadones {
         margin: 0px;
         color: black;
+        border: none;
+    }
+
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
         border: none;
     }
 
@@ -1942,43 +2066,53 @@
         border: none;
     }
 
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
 
     .container_card {
         background-color: transparent;
         width: 100%;
         height: auto; 
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-top: 30px;
         display: flex;
         flex-flow: row wrap; 
-        justify-content: center;
-        border: 30px;
-     
+        justify-content: center;      
     }
 
     .section {
         width: 100%;
         height:auto; 
         margin: auto;    
-        display: flex;
-        flex-flow: row wrap; 
+        display: flex; 
+        flex-wrap: wrap; 
         justify-content: center;
-        padding: 9px;
-        background-color: transparent;  
+        padding: 2px;
+        background-color: white;  
      
     }
 
     .section .card {
         display: flex;
-        flex-flow: row wrap; 
+        flex-wrap: wrap; 
         justify-content: center;
         height: auto;
-        width: 240px;
-        margin: auto; 
-        margin-top: 35px;  
+        width: 180px;
+        margin-top: 28px;  
+        margin-bottom: 28px;  
         background-color: transparent;  
-        margin-left: 25px;
-        margin-right: 25px; 
+        margin-left: 5px;
+        margin-right: 5px; 
     }
 
     .section .card:hover {
@@ -1989,17 +2123,15 @@
 
     .section .card a {
         width: 100%;
-        height: 280px;
+        height: 275px;
         margin: auto;
-        text-decoration: none;
-        border:1px solid black;
-     
+        text-decoration: none;  
 
      }
 
     .card a img {
         width:100%;
-        height:220px; 
+        height:210px; 
         margin: auto; 
 
 
@@ -2041,8 +2173,8 @@
     }
 
     .redes_soc img {
-        width: 100px;
-        height: 100px;
+        width:90px;
+        height: 90px;
         margin: auto;
         margin-top: 5px;
         margin-bottom: 10px;
@@ -2058,16 +2190,16 @@
     }
 
     .contacto p {
-        font-size: 30px
+        font-size: 25px
     }
 
     footer div p {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     footer .infoLinks {
         width: 100%;
-        height: 30px;
+        height: auto;
         background-color: black;
         display: flex;
         flex-wrap: wrap;
@@ -2082,6 +2214,18 @@
         color: white;
         text-decoration: none;
         font-size: 12px;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap; 
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+        
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
     }
 
     .copyright {
