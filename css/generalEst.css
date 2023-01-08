@@ -133,6 +133,14 @@
         margin:0px;
     }
 
+    .card a {
+        text-decoration: none;
+    }
+
+    .card a p {
+        color : black
+    }
+
     .card  img {
         width: 220px; 
         height: 220px;           
@@ -405,6 +413,14 @@
         width: 230px;
         height: 230px;
         margin:0px;
+    }
+
+    .card a {
+        text-decoration: none;
+    }
+
+    .card a p {
+        color : black
     }
 
     .card  img {
@@ -703,6 +719,14 @@
         width: 260px;
         height: 260px;
         margin:auto; 
+    }
+
+    .card a {
+        text-decoration: none;
+    }
+
+    .card a p {
+        color : black
     }
 
     .card  img {
@@ -1008,6 +1032,15 @@
         width: 260px;
         height: 260px;
         margin:auto; 
+    }
+
+
+    .card a {
+        text-decoration: none;
+    }
+
+    .card a p {
+        color : black
     }
 
     .card  img {
@@ -1358,7 +1391,15 @@
         width: 350px;
         height: 350px;
         margin:auto; 
-    }    
+    }  
+
+    .card a {
+        text-decoration: none;
+    }
+
+    .card a p {
+        color : black
+    }  
 
     .card img {
         width:350px;  
@@ -1653,6 +1694,14 @@
         width: 350px;
         height: 350px;
         margin:auto; 
+    }
+
+    .card a {
+        text-decoration: none;
+    }
+
+    .card a p {
+        color : black
     }
     
     .card img {

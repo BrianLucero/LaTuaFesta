@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/generalEst.css" media="screen" /> 
+    <link rel="stylesheet" type="text/css" href="css/tazas.css" media="screen" /> 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -16,6 +16,8 @@
     <title> Tazas </title>
 </head>
 <body>
+    
+    <!-- ----- MENU DESPLEGABLE CELULAR ----- -->    
     
     <div  id="navMenu"   class="list" ; >
         <div class="boton">
@@ -75,6 +77,11 @@
                               TAZAS
                             </a>
                         </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="tazaBolsi.html">
+                              BOLSITA
+                            </a>
+                        </li>
                     </ul>
                 
                 </li>
@@ -132,87 +139,83 @@
                 </button>
             </nav>
 
-            <!-- ----- NAVEGADOR PORTATIL  ------ -->
-            <div class="portFon">
-                <nav class=" portatil navbar navbar-expand-lg bg-black w-100   ">
-                    <div class="container-fluid  port ">
+           <!-- ----- NAVEGADOR PORTATIL  ------ -->
+           <div class="portFon">
+            <nav class=" portatil navbar navbar-expand-lg bg-black w-100  justify-content-center mb-4 ">
+                <div class="container-fluid  justify-content-center ">
 
-                        <ul class="nav bg-black"> 
-
-                            <li class="nav-item loFondo">
-                                <a href="index.html" class="nav-link">
-                                    <img src="IMG/logoNav.jpeg">
-                                </a>  
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link "       href="index.html">
-                                    <button  type="button" class="btn btn-outline-light">INICIO</button>
-                                </a>
-                            </li>
-                            <li class="nav-item   dropdown">
-                                <a class="nav-link active  text-light dropdown-toggle  "    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <button  type="button"  class="btn btn-outline-light"  > PRODUCTO</button>
-                                </a>
-                                <ul class="dropdown-menu bg-dark">
-                                    <li class="nav-link   ">
-                                        <a class="dropdown-item    " href="agenda.html"> 
-                                            <button  type="button"  class="btn btn-outline-light  "> AGENDA</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item  " href="setJardin.html">
-                                            <button  type="button" class="btn btn-outline-light" >  SET DE JARDIN</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="almohadones.html">
-                                            <button  type="button" class="btn btn-outline-light" > ALMOHADONES</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="cartuchera.html">
-                                            <button  type="button" class="btn btn-outline-light" > CARTUCHERA</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="remChicos.html">
-                                            <button  type="button" class="btn btn-outline-light" > REMERAS DE CHICOS</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="remEmba.html">
-                                            <button  type="button" class="btn btn-outline-light" > REMERAS DE EMBARAZADAS</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="mochilas.html">
-                                            <button  type="button" class="btn btn-outline-light" > MOCHILA</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href=".html">
-                                            <button  type="button" class="btn btn-outline-light" > TAZA</button>
-                                        </a>
-                                    </li>
-                                </ul>
+                    <ul class="nav bg-black"> 
+                        <li class="nav-item">
+                            <a class="nav-link "       href="index.html">
+                                <button  type="button" class="btn btn-outline-light">INICIO</button>
+                            </a>
+                        </li>
+                        <li class="nav-item   dropdown">
+                            <a class="nav-link active  text-light dropdown-toggle  "    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button  type="button"  class="btn btn-outline-light"  > PRODUCTO</button>
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li class="nav-link   ">
+                                    <a class="dropdown-item    " href="agenda.html"> 
+                                        <button  type="button"  class="btn btn-outline-light  "> AGENDA</button>
+                                    </a>
                                 </li>
-                            <li class="nav-item">
-                            <a class="nav-link active" href="devolucion.html">
-                                <button  type="button" class="btn btn-outline-light"   > DEVOLUCIONES
-                                    
-                                </button>
-                            </a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link active ">
-                                <button  type="button" class="btn btn-outline-light" > PRODUCTO </button>
-                            </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+                                <li class="nav-link">
+                                    <a class="dropdown-item  " href="setJardin.html">
+                                        <button  type="button" class="btn btn-outline-light"> SET DE JARDIN</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="almohadones.html">
+                                        <button  type="button" class="btn btn-outline-light" > ALMOHADONES</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="cartuchera.html">
+                                        <button  type="button" class="btn btn-outline-light" > CARTUCHERA</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="remChicos.html">
+                                        <button  type="button" class="btn btn-outline-light" > REMERAS DE CHICOS</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="remEmba.html">
+                                        <button  type="button" class="btn btn-outline-light" > REMERAS DE EMBARAZADAS</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="mochilas.html">
+                                        <button  type="button" class="btn btn-outline-light" > MOCHILA</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="tazas.html">
+                                        <button  type="button" class="btn btn-outline-light" > TAZA</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="tazaBolsi.html">
+                                        <button  type="button" class="btn btn-outline-light" > BOLSITA</button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="devolucion.html">
+                            <button  type="button" class="btn btn-outline-light"   > DEVOLUCIONES</button>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">
+                            <button  type="button" class="btn btn-outline-light" > NOSOTROS</button>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            </div> 
 
         </header>
 
@@ -296,6 +299,9 @@
                 </a>
                 <a href="https://www.instagram.com/laadfs83/?igshid=YmMyMTA2M2Y%3D" target="_blank">
                     <img class="redes" src="IMG/instagram.jpeg">
+                </a>
+                <a href="https://www.tiktok.com/@luciana_1977" target="_blank"  >
+                    <img class="redes" src="IMG/tik-tok.jpeg">
                 </a>
             </div>
             <div class="contacto ">

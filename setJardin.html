@@ -16,6 +16,8 @@
 </head>
 <body>
     
+    <!-- ----- MENU DESPLEGABLE CELULAR ----- -->    
+    
     <div  id="navMenu"   class="list" ; >
         <div class="boton">
             <button type="button" width="100px" class="btn-close btn-close-white" aria-label="Close" onclick="Cerrar();" ></button>
@@ -72,6 +74,11 @@
                         <li class="nav-link">
                             <a class="dropdown-item bg-white text-dark" href="tazas.html">
                               TAZAS
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="dropdown-item bg-white text-dark" href="tazaBolsi.html">
+                              BOLSITA
                             </a>
                         </li>
                     </ul>
@@ -133,87 +140,83 @@
                 </button>
             </nav>
 
-            <!-- ----- NAVEGADOR PORTATIL  ------ -->
-            <div class="portFon">
-                <nav class=" portatil navbar navbar-expand-lg bg-black w-100   ">
-                    <div class="container-fluid  port ">
+           <!-- ----- NAVEGADOR PORTATIL  ------ -->
+           <div class="portFon">
+            <nav class=" portatil navbar navbar-expand-lg bg-black w-100  justify-content-center mb-4 ">
+                <div class="container-fluid  justify-content-center ">
 
-                        <ul class="nav bg-black"> 
-
-                            <li class="nav-item loFondo">
-                                <a href="index.html" class="nav-link">
-                                    <img src="IMG/logoNav.jpeg">
-                                </a>  
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link "       href="index.html">
-                                    <button  type="button" class="btn btn-outline-light">INICIO</button>
-                                </a>
-                            </li>
-                            <li class="nav-item   dropdown">
-                                <a class="nav-link active  text-light dropdown-toggle  "    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <button  type="button"  class="btn btn-outline-light"  > PRODUCTO</button>
-                                </a>
-                                <ul class="dropdown-menu bg-dark">
-                                    <li class="nav-link   ">
-                                        <a class="dropdown-item    " href="agenda.html"> 
-                                            <button  type="button"  class="btn btn-outline-light  "> AGENDA</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item  " href="setJardin.html">
-                                            <button  type="button" class="btn btn-outline-light" >  SET DE JARDIN</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="almohadones.html">
-                                            <button  type="button" class="btn btn-outline-light" > ALMOHADONES</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="cartuchera.html">
-                                            <button  type="button" class="btn btn-outline-light" > CARTUCHERA</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="remChicos.html">
-                                            <button  type="button" class="btn btn-outline-light" > REMERAS DE CHICOS</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="remEmba.html">
-                                            <button  type="button" class="btn btn-outline-light" > REMERAS DE EMBARAZADAS</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href="mochilas.html">
-                                            <button  type="button" class="btn btn-outline-light" > MOCHILA</button>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a class="dropdown-item" href=".html">
-                                            <button  type="button" class="btn btn-outline-light" > TAZA</button>
-                                        </a>
-                                    </li>
-                                </ul>
+                    <ul class="nav bg-black"> 
+                        <li class="nav-item">
+                            <a class="nav-link "       href="index.html">
+                                <button  type="button" class="btn btn-outline-light">INICIO</button>
+                            </a>
+                        </li>
+                        <li class="nav-item   dropdown">
+                            <a class="nav-link active  text-light dropdown-toggle  "    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button  type="button"  class="btn btn-outline-light"  > PRODUCTO</button>
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li class="nav-link   ">
+                                    <a class="dropdown-item    " href="agenda.html"> 
+                                        <button  type="button"  class="btn btn-outline-light  "> AGENDA</button>
+                                    </a>
                                 </li>
-                            <li class="nav-item">
-                            <a class="nav-link active" href="devolucion.html">
-                                <button  type="button" class="btn btn-outline-light"   > DEVOLUCIONES
-                                    
-                                </button>
-                            </a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link active ">
-                                <button  type="button" class="btn btn-outline-light" > PRODUCTO </button>
-                            </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+                                <li class="nav-link">
+                                    <a class="dropdown-item  " href="setJardin.html">
+                                        <button  type="button" class="btn btn-outline-light"> SET DE JARDIN</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="almohadones.html">
+                                        <button  type="button" class="btn btn-outline-light" > ALMOHADONES</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="cartuchera.html">
+                                        <button  type="button" class="btn btn-outline-light" > CARTUCHERA</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="remChicos.html">
+                                        <button  type="button" class="btn btn-outline-light" > REMERAS DE CHICOS</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="remEmba.html">
+                                        <button  type="button" class="btn btn-outline-light" > REMERAS DE EMBARAZADAS</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="mochilas.html">
+                                        <button  type="button" class="btn btn-outline-light" > MOCHILA</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="tazas.html">
+                                        <button  type="button" class="btn btn-outline-light" > TAZA</button>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="dropdown-item" href="tazaBolsi.html">
+                                        <button  type="button" class="btn btn-outline-light" > BOLSITA</button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="devolucion.html">
+                            <button  type="button" class="btn btn-outline-light"   > DEVOLUCIONES</button>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">
+                            <button  type="button" class="btn btn-outline-light" > NOSOTROS</button>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            </div> 
 
         </header>
 
@@ -226,30 +229,30 @@
           </nav>
         </div>
 
-               <!-- ------ ACORDION ------ -->
+        <!-- ------ ACORDION ------ -->
 
-               <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      PROMOCIONES :
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <p>~ mantel, servilleta y toalla  $750
-                        </p>
-                        <hr>
-                        <p>~ mantel, servilleta, toalla, y taza  $1250.
-                        </p>
-                        <hr>
-                        <p>~ mantel, servilleta, toalla, taza y 
-                            cucharita  $1300.
-                        </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                PROMOCIONES :
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <p>- mantel, servilleta y toalla  $750
+                </p>
+                <hr>
+                <p>- mantel, servilleta, toalla, y taza  $1250.
+                </p>
+                <hr>
+                <p>- mantel, servilleta, toalla, taza y 
+                    cucharita  $1300.
+                </p>
+            </div>
+            </div>
+        </div>
+        </div>
 
         <H1 class="encabezado container"> Set De Jardin </H1>
 
@@ -294,6 +297,14 @@
             </div>
         </main>
 
+                <main class="container_card">    
+            <div class="card ">
+                <img src="IMG/A/among_us/02.png">
+                <p class="parrafo">AMONG US
+                </p>
+            </div>
+        </main>
+
         <main class="container_card">    
             <div class="card ">
                 <img src="IMG/A/angel_stich/angela-2-dulce-juana.jpg">  
@@ -317,10 +328,26 @@
                 </p>
             </div>
         </main>
+        
+        <main class="container_card">    
+            <div class="card ">
+                <img src="IMG/A/ANIMALES_DE_LA_SELVA/animalitos-de-la-selva-dulce-juana.jpg">
+                <p class="parrafo">ANIMALES DE LA SELVA
+                </p>
+            </div>
+        </main>
 
         <main class="container_card">    
             <div class="card ">
                 <img src="IMG/A/animales_del_bosque/anialitos-del-bosque-nena-dulce-juana.jpg">
+                <p class="parrafo">ANIMALES DEL BOSQUE
+                </p>
+            </div>
+        </main>
+
+                <main class="container_card">    
+            <div class="card ">
+                <img src="IMG/A/animales_del_bosque/animales-del-bosque-dulce-juana.jpg">
                 <p class="parrafo">ANIMALES DEL BOSQUE
                 </p>
             </div>
@@ -334,9 +361,25 @@
             </div>
         </main>
 
+                <main class="container_card">    
+            <div class="card ">
+                <img src="IMG/A/animales_del_bosque_tribal/pack-jardin-animalitos-tribal diserapalo.jpg">
+                <p class="parrafo">ANIMALES DEL BOSQUE TRIBAL
+                </p>
+            </div>
+        </main>
+
         <main class="container_card">    
             <div class="card ">
                 <img src="IMG/A/ANIMALES_NORDICOS/animalitos-nordicos-301x301-dulce-juana.jpg">
+                <p class="parrafo">ANIMALES NORDICOS
+                </p>
+            </div>
+        </main>
+
+                <main class="container_card">    
+            <div class="card ">
+                <img src="IMG/A/ANIMALES_NORDICOS/animal-nordico-dulce-juana.jpg">
                 <p class="parrafo">ANIMALES NORDICOS
                 </p>
             </div>
@@ -350,9 +393,25 @@
             </div>
         </main>
 
+                <main class="container_card">    
+            <div class="card ">
+                <img src="IMG/A/ARCO_IRIS/pack-jardin-arcoiris diserapalo.jpg">
+                <p class="parrafo">ARCO IRIS
+                </p>
+            </div>
+        </main>
+
         <main class="container_card">    
             <div class="card ">
                 <img src="IMG/A/ASTRONAUTA/astronauta-1-301x301-dulce-juana.jpg">
+                <p class="parrafo">ASTRONAUTA
+                </p>
+            </div>
+        </main>
+
+                <main class="container_card">    
+            <div class="card ">
+                <img src="IMG/A/ASTRONAUTA/pack-jardin-espacio-astronauta-diserapalo.jpg">
                 <p class="parrafo">ASTRONAUTA
                 </p>
             </div>
@@ -440,6 +499,14 @@
             </div>
         </main>
 
+                <main class="container_card">    
+            <div class="card">
+                <img src="IMG/A/AVENGERS/Muestra-Avengers-2.png">
+                <p class="parrafo">AVENGERS
+                </p>
+            </div>
+        </main>
+
         <main class="container_card">
             <div class="card">
                 <img src="IMG/A/AVIONES/aviones-dulce-juana.jpg">                
@@ -496,6 +563,14 @@
             </div>  
         </main>
 
+                <main class="container_card">
+            <div class="card ">
+                <img src="IMG/B/BELY-Y-BETO/BELY-Y-BETO-dulce-juana.gif">
+                <p class="parrafo"> BELY Y BETO
+                </p>
+            </div>  
+        </main>
+
         <main class="container_card">
             <div class="card ">
                 <img src="IMG/B/BIA/BIA-dulce-juana.jpg">
@@ -509,7 +584,15 @@
                 <img src="IMG/B/BICHIKIDS/pack-jardin-bichikids_diserapalo.jpg">
                 <p class="parrafo"> BICHIKIDS
                 </p> 
-                </div>
+            </div>
+        </main>
+
+              <main class="container_card">
+            <div class="card ">
+                <img src="IMG/B/BICHIKIDS/bichikids-dulce-juana.jpg">
+                <p class="parrafo"> BICHIKIDS
+                </p> 
+            </div>
         </main>
         
         <main class="container_card"> 
@@ -520,9 +603,26 @@
             </div>
         </main>
 
+                <main class="container_card"> 
+            <div class="card ">
+                <img src="IMG/B/BLUEY/bluey-1 dulce-juana.jpg">
+                <p class="parrafo"> BLUEY
+                </p>
+            </div>
+        </main>
+
         <main class="container_card"> 
             <div class="card ">
-                <img src="IMG/B/bob-esponja/pack-jardin-bob-esponja_diserapalo.jpg">            <p class="parrafo"> BOB ESPONJA
+                <img src="IMG/B/bob-esponja/pack-jardin-bob-esponja_diserapalo.jpg"> 
+                <p class="parrafo"> BOB ESPONJA
+                </p> 
+            </div>
+        </main>
+
+                <main class="container_card"> 
+            <div class="card ">
+                <img src="IMG/B/bob-esponja/BOB-ESPONJA.png"> 
+                <p class="parrafo"> BOB ESPONJA
                 </p> 
             </div>
         </main>
@@ -530,6 +630,14 @@
         <main class="container_card"> 
             <div class="card ">
                 <img src="IMG/B/BOMBERO/57a3ae20b9caa5503bd611e4271bd7482152b7d953a9dc2268d66cd45efd5298114571.jpeg">
+                <p class="parrafo"> BOMBERO
+                </p>  
+            </div>
+        </main>
+
+        <main class="container_card"> 
+            <div class="card ">
+                <img src="IMG/B/BOMBERO/bombero-1-301x301-dulce-juana.jpg">
                 <p class="parrafo"> BOMBERO
                 </p>  
             </div>
@@ -795,6 +903,14 @@
 
         <main class="container_card">
             <div class="card">
+                <img src="IMG/C/CANIONES-DEL-ZOO/pack-jardin-canciones-del-zoo-diserapalo.jpg">
+                <p class="parrafo">CANCIONES DEL ZOO
+                </p> 
+            </div>             
+        </main>
+
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/C/CAPITAN-AMERICA/cap-america-dulce-juana.jpg">
                 <p class="parrafo">CAPITAN AMERICA
                 </p>    
@@ -803,7 +919,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/C/CAPITAN-SUBASA/cce469bd295a6c91add5a3bdeb962c325375177d2592de56474b3cfc86493a60114571.jpeg">
+                <img src="IMG/C/CAPITAN-SUBASA/subasa.jpeg">
                 <p class="parrafo">CAPITAN SUBASA
                 </p>  
             </div>            
@@ -811,7 +927,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/C/cars/bc80eb7c40b6e9035dc9ce22d49d52e2f66f5b4576d8b3ccff4cd006c2a96383114571.jpeg">
+                <img src="IMG/C/cars/cars.jpeg">
                 <p class="parrafo">CARS
                 </p>   
             </div>
@@ -872,10 +988,18 @@
                 </p>
             </div>              
         </main>
+        
+        <main class="container_card">
+            <div class="card">
+                <img src="IMG/C/CLIFORT/cliford-nena-1-dulce-juana.jpg">
+                <p class="parrafo">CLIFFORD
+                </p>
+            </div>              
+        </main>
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/C/COBRA-KAI/5d3bf90e90f680e7efccd8b2d78c4247fa78a5e55d438f5fa12ce46ce2043aef114571.jpeg">
+                <img src="IMG/C/COBRA-KAI/cobra-kai.jpeg">
                 <p class="parrafo">COBRA KAI
                 </p>
             </div>              
@@ -891,7 +1015,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/C/COCOMELON/39e4c19282da4d66c964cb2120c33b10f2e04a9ed3a6a19a05152aa81656372b114571.jpeg">
+                <img src="IMG/C/COCOMELON/cocomelon.jpeg">
                 <p class="parrafo">COCOMELON
                 </p>
             </div>              
@@ -915,7 +1039,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/C/construccion/272983569_990818478453086_1157373267101844270_n.jpg">
+                <img src="IMG/C/construccion/construccion.jpg">
                 <p class="parrafo">CONSTRUCCIÓN
                 </p>  
             </div>            
@@ -923,7 +1047,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/C/CRASH/7051fe3337a32d11d13fbeb42ce363e6b52656b2520c6661d3ccc0543a90042a114571.jpeg">
+                <img src="IMG/C/CRASH/crash.jpeg">
                 <p class="parrafo">CRASH
                 </p>    
             </div>          
@@ -953,6 +1077,14 @@
                 </p> 
             </div>
         </main>
+
+        <main class="container_card">
+            <div class="card ">
+                <img src="IMG/D/dinosaurios/DINOSAURIOS.png">
+                <p class="parrafo"> DINOSAURIOS
+                </p> 
+            </div>
+        </main>
         
         <main class="container_card">   
             <div class="card ">
@@ -972,23 +1104,15 @@
         
         <main class="container_card">       
             <div class="card ">
-                <img src="IMG/D/DRA-JUGUETES/doctora-juguetes-dulce-juana.jpg">
+                <img src="IMG/D/DRA-JUGUETES/pack-jardin-doc-juguetes-diserapalo.jpg">
                 <p class="parrafo"> DRA. JUGUETES
                 </p> 
             </div>                   
-        </main>
-
-        <main class="container_card">       
-            <div class="card ">
-                <img src="IMG/D/DRA-JUGUETES/pack-jardin-doc-juguetes-diserapalo.jpg">
-                <p class="parrafo"> DRA. JUGUETES
-                </p>
-            </div>                    
-        </main>
+        </main> 
         
         <main class="container_card">
             <div class="card">
-                <img src="IMG/D/DEAD-POOL/271482239_975264696675131_6295684142197475007_n.jpg">
+                <img src="IMG/D/DEAD-POOL/deatpool.jpg">
                 <p class="parrafo">DEAD POOL
                 </p> 
             </div> 
@@ -1008,19 +1132,11 @@
                 <p class="parrafo">DEFENSA Y JUSTICIA
                 </p> 
             </div>             
-        </main>
-
-        <main class="container_card">
-            <div class="card">
-                <img src="IMG/D/DEFENSA-Y-JUSTICIA/pack-jardin-defensa-y-justicia-diserapalo.jpg">
-                <p class="parrafo">DEFENSA Y JUSTICIA
-                </p>  
-            </div>            
         </main> 
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/D/dragon-ball/88ce22f1fb14c5677568c648811dffdff55a0ecd0df7104831b25a33ea1c6f54114571.jpeg">
+                <img src="IMG/D/dragon-ball/dragon-ball-2-dulce-juana.jpg">
                 <p class="parrafo"> DRAGON BALL
                 </p> 
             </div>
@@ -1029,6 +1145,14 @@
         <main class="container_card">
             <div class="card ">
                 <img src="IMG/E/EGRESADITOS/egresaditos-3-dulce-juana.jpg">
+                <p class="parrafo"> EGRESADITOS
+                </p> 
+            </div>
+        </main>
+
+        <main class="container_card">
+            <div class="card ">
+                <img src="IMG/E/EGRESADITOS/pack-jardin-egresaditos-diserapalo.jpg">
                 <p class="parrafo"> EGRESADITOS
                 </p> 
             </div>
@@ -1092,7 +1216,7 @@
 
         <main class="container_card">
             <div class="card ">
-                 <img src="IMG/E/encanto/273012907_990818488453085_6312839993908617858_n.jpg">
+                 <img src="IMG/E/encanto/encanto.jpg">
                  <p class="parrafo"> ENCANTO
                 </p>
                 </div>                    
@@ -1104,15 +1228,7 @@
                 <p class="parrafo"> EQUESTRIA
                 </p> 
             </div>                   
-        </main>  
-        
-        <main class="container_card">
-            <div class="card">
-                <img src="IMG/E/EGRESADITOS/egresaditos-globo-301x301-dulce-juana.jpg">
-                <p class="parrafo">EGRESADITOS
-                </p> 
-            </div>             
-        </main>
+        </main>   
 
         <main class="container_card">
             <div class="card">
@@ -1180,7 +1296,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/F/FLAMENCO/271533209_975268516674749_102721558204624201_n.jpg">
+                <img src="IMG/F/FLAMENCO/flamenco.jpg">
                 <p class="parrafo"> FLAMENCO
                 </p>  
             </div>                  
@@ -1204,7 +1320,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/F/FRUTILLITA/6fa0c9e583e17409671b55b9d3cbbf9b8331898195bbf2bd8b4e70c974798991114571.jpeg">
+                <img src="IMG/F/FRUTILLITA/frutillita.jpeg">
                 <p class="parrafo"> FRUTILLITA
                 </p>   
             </div>                 
@@ -1268,7 +1384,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/F/FORTNITE/2cee65be01788316472a765ef9b1bab8ac360dd5ee75c171091cbc055367ba5e114571.jpeg">
+                <img src="IMG/F/FORTNITE/fornite.jpeg">
                 <p class="parrafo">FORTNITE
                 </p> 
             </div>             
@@ -1292,7 +1408,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/F/FRIDAY-NIGHT-FUNKY/4b6ab4a8295efe193f177627d0813541c52602264702b6e92f268aaa53b419a6114571.jpeg">
+                <img src="IMG/F/FRIDAY-NIGHT-FUNKY/friday.jpeg">
                 <p class="parrafo">FRIDAY NIGHT FUNKY
                 </p>
             </div>
@@ -1332,7 +1448,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/G/GABBY/8a855c5df50ab21e3c892b043436f4bc799ef7277ea9db24903eabae4f7e9f99114571.jpeg">
+                <img src="IMG/G/GABBY/gabby.jpeg">
                 <p class="parrafo">  GABBY
                 </p>  
             </div>                  
@@ -1413,7 +1529,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/G/GEORGE-PIG/270859645_979658612902406_6275001762592582226_n.jpg">
+                <img src="IMG/G/GEORGE-PIG/george-pig.jpg">
                 <p class="parrafo">GEORGE PIG
                 </p>              
             </div>
@@ -1422,6 +1538,14 @@
         <main class="container_card">
             <div class="card">
                 <img src="IMG/G/GRANJA/pack-jardin-granja-nene-diserapalo.jpg">
+                <p class="parrafo">GRANJA
+                </p>    
+            </div>          
+        </main>
+
+        <main class="container_card">
+            <div class="card">
+                <img src="IMG/G/GRANJA/granja-nena-1-301x301-dulce-juana.jpg">
                 <p class="parrafo">GRANJA
                 </p>    
             </div>          
@@ -1567,7 +1691,7 @@
 
         <main class="container_card">  
             <div class="card">
-                <img src="IMG/H/HOMBRE-ARAÑA/0f7aa590f681f1cb7ea9b4fc5b673ecb663a51ee3e8f1fed378c9dd7c92ad699114571.jpeg">
+                <img src="IMG/H/HOMBRE-ARAÑA/hombre-araña.jpeg">
                 <p class="parrafo"> HOMBRE ARAÑA
                 </p> 
             </div> 
@@ -1583,7 +1707,7 @@
 
         <main class="container_card">  
             <div class="card">
-                <img src="IMG/H/HOTWEELS/271541685_975264653341802_7121397724986967113_n.jpg">
+                <img src="IMG/H/HOTWEELS/hotweels.jpg">
                 <p class="parrafo">HOT WEEELS
                 </p> 
             </div>             
@@ -1591,7 +1715,7 @@
 
         <main class="container_card">  
             <div class="card">
-                <img src="IMG/H/HUGGY/cdc586faf0958fe5d4c29f192dc4474a747aaef1b12e13a05bc74dc33dbb65e9114571.jpeg">
+                <img src="IMG/H/HUGGY/huggy.jpeg">
                 <p class="parrafo">HUGGY
                 </p>   
             </div>           
@@ -1615,7 +1739,7 @@
 
         <main class="container_card">  
             <div class="card">
-                <img src="IMG/H/HULK/271476378_975265673341700_8076431833599902048_n.jpg">
+                <img src="IMG/H/HULK/HULK.png">
                 <p class="parrafo">HULK
                 </p>  
             </div>            
@@ -1663,7 +1787,7 @@
 
         <main class="container_card"> 
             <div class="card">
-                <img src="IMG/I/IRON-MAN/2a630f0c2fdfd075ec89db515ad0204fde0dae427ad06c449960389cdb855600114571.jpeg">
+                <img src="IMG/I/IRON-MAN/iron-man.jpeg">
                 <p class="parrafo">IRON MAN
                 </p> 
             </div>             
@@ -1760,7 +1884,7 @@
 
         <main class="container_card"> 
             <div class="card">
-                <img src="IMG/J/JOVENES-TITANES/8e2a227f767aedbeb5bc05cf0c3691d8f0f28e15fcdd24cf6dedea9a6f00e66e114571.jpeg">
+                <img src="IMG/J/JOVENES-TITANES/jovenes-titanes.jpeg">
                 <p class="parrafo">JOVENES TITANES
                 </p>
             </div>              
@@ -1768,7 +1892,7 @@
 
         <main class="container_card"> 
             <div class="card ">
-                <img src="IMG/K/KISSMISS/271443758_975285180006416_8097400813865358342_n.jpg">
+                <img src="IMG/K/KISSMISS/kissmiss.jpg">
                 <p class="parrafo"> KISS MISS
                 </p>  
             </div>                  
@@ -1800,7 +1924,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/L/LA-GRANJA-DE-ZENON/271490023_975268486674752_4435050818972679340_n.jpg">
+                <img src="IMG/L/LA-GRANJA-DE-ZENON/la-granja-de-zenon.jpg">
                 <p class="parrafo">LA GRANJA DE ZENON
                 </p>
             </div>              
@@ -1816,7 +1940,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/L/LADYBUG/d8d1206b6b27c83b58eadae776460d9d63225169a2d1de40792523d8c9483a13114571.jpeg">
+                <img src="IMG/L/LADYBUG/ladybug.jpeg">
                 <p class="parrafo"> LADYBUG
                 </p>  
             </div>                  
@@ -1872,7 +1996,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/L/LOL-SUPRISE/26a8ba309d9e51950da61e2cef8a7d45a62251ec5ca14a8c0f160492579e7a69114571.jpeg">
+                <img src="IMG/L/LOL-SUPRISE/LOL.png">
                 <p class="parrafo"> LOL SUPRISE
                 </p>  
             </div>                  
@@ -1904,7 +2028,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/L/LYNA/f8667396b9f0bab3cccf49052a48c6d76cd9cc8a258996e8096927c49a1081e0114571.jpeg">
+                <img src="IMG/L/LYNA/lyna.jpeg">
                 <p class="parrafo"> LYNA
                 </p>  
             </div>                  
@@ -1992,7 +2116,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/L/LEGO/7cfd1cb3499772442e9f1a1b4a2495fc9a731e23e32bc182011451a0a7ac6415114571.jpeg">
+                <img src="IMG/L/LEGO/lego.jpeg">
                 <p class="parrafo">LEGO
                 </p>
             </div>
@@ -2024,7 +2148,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/L/LUCA/5a2c106d41cdd36d7b68cc9e87c656803777b255e04f793de4ac15c1437af58e114571.jpeg">
+                <img src="IMG/L/LUCA/luca.jpeg">
                 <p class="parrafo">LUCA
                 </p>
             </div>
@@ -2120,7 +2244,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/M/MARIE-LA-GATA/0c116da5ad3aab0528f3aef6f3e46450adfd15890cf8ac0887140d4767dc8bd4114571.jpeg">
+                <img src="IMG/M/MARIE-LA-GATA/marie-la-gata.jpeg">
                 <p class="parrafo"> MARIE LA GATA
                 </p>   
             </div>                 
@@ -2152,7 +2276,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/M/MASHA-Y-EL-OSO/271518981_975264530008481_2926437125566862184_n.jpg">
+                <img src="IMG/M/MASHA-Y-EL-OSO/masha-y-el-oso.jpg">
                 <p class="parrafo"> MASHA Y EL OSO
                 </p>  
             </div>                  
@@ -2176,7 +2300,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/M/mickey/271894799_979659319569002_5062416116189069532_n.jpg">
+                <img src="IMG/M/mickey/mickey.jpg">
                 <p class="parrafo">MICKEY
                 </p>
             </div>
@@ -2192,7 +2316,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/M/minnie/a7f68df2d17a31754b4b5bcb6c9c1d0a058521ee15046ac7fbdc63d10834d33b114571.jpeg">
+                <img src="IMG/M/minnie/Minnie-5-C.png">
                 <p class="parrafo"> MINNIE
                 </p>    
             </div>                
@@ -2218,7 +2342,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/M/MINNIE-Y-MICKEY/b9522d63cb4150b74b012eb47603226b3b273a947092c322807a41100316d376114571.jpeg">
+                <img src="IMG/M/MINNIE-Y-MICKEY/minnie-mickey.jpeg">
                 <p class="parrafo"> MINNIE Y MICKEY
                 </p>
             </div>                    
@@ -2234,7 +2358,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/M/MINNIONS/effed98ed8a8685aef5d156cd1f924342f4089ca413f124fbceb4452b59fa9d4114571.jpeg">
+                <img src="IMG/M/MINNIONS/minnions.jpeg">
                 <p class="parrafo">MINNIONS
                 </p>
             </div>
@@ -2250,7 +2374,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/M/MOANA/cfcc8d52aa7f0cb513c8f7c9f87bddbc4e276926e9572a807127d0373caf88b2114571.jpeg">
+                <img src="IMG/M/MOANA/moana.jpeg">
                 <p class="parrafo"> MOANA
                 </p>  
             </div>                  
@@ -2259,6 +2383,14 @@
         <main class="container_card">
             <div class="card ">
                 <img src="IMG/M/MONSTER-INC/pack-jardin-boo-diserapalo.jpg">
+                <p class="parrafo"> MONSTER INC
+                </p>       
+            </div>             
+        </main>
+
+        <main class="container_card">
+            <div class="card ">
+                <img src="IMG/M/MONSTER-INC/monster-inc-dulce-juana.jpg">
                 <p class="parrafo"> MONSTER INC
                 </p>       
             </div>             
@@ -2282,7 +2414,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/M/MUJER-MARAVILLA/04b972276908d6701fc08c682b10c1f2795b8ee95358b7d8a9ee669b7a2bc142114571.jpeg">
+                <img src="IMG/M/MUJER-MARAVILLA/mujer-maravilla.jpeg">
                 <p class="parrafo"> MUJER MARAVILLA
                 </p>  
             </div>                  
@@ -2290,7 +2422,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/M/MY-LITLLE-PONY/5014249915111c0fa391c65c85f286dad482a7a42f09cfa059f773d297fd9459114571.jpeg">
+                <img src="IMG/M/MY-LITLLE-PONY/my-litlle-pony.jpeg">
                 <p class="parrafo"> MY LITLLE PONY
                 </p>  
             </div>                  
@@ -2338,7 +2470,7 @@
     
         <main class="container_card">
             <div class="card">
-                <img src="IMG/M/MARSHMELLO/d2b306c205ee829bec01e88d7b6e108ab0c8612d791bad4a8b4682f84cc31f5f114571.jpeg">
+                <img src="IMG/M/MARSHMELLO/marsmello.jpeg">
                 <p class="parrafo">MARSHMELLO
                 </p>
             </div>
@@ -2515,7 +2647,7 @@
         
         <main class="container_card">
             <div class="card">
-                <img src="IMG/N/NARUTO/0c23feb0d5c8a01f44d1bd036133624c5e7fbc2870eb5d53c6c33fa981be4912114571.jpeg">
+                <img src="IMG/N/NARUTO/pack-jardin-naruto-diserapalo.jpg">
                 <p class="parrafo">NARUTO
                 </p>
             </div>
@@ -2547,7 +2679,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/O/OLAF/a87efa90f28d9874fcc4fefb86de2167b5d7941496cf05765ee86a509c216c71114571.jpeg">
+                <img src="IMG/O/OLAF/olaf.jpeg">
                 <p class="parrafo"> OLAF
                 </p>  
             </div>                  
@@ -2603,7 +2735,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/O/OSOS-ESCANDALOSOS/osos-escandalosos-1-dulce-juana.jpg">
+                <img src="IMG/O/OSOS-ESCANDALOSOS/pack-jardin-escandalosos-diserapalo.jpg">
                 <p class="parrafo"> OSOS ESCANDALOSOS
                 </p> 
             </div>                   
@@ -2611,7 +2743,7 @@
 
         <main class="container_card">        
             <div class="card">
-                <img src="IMG/O/OSOS-ESCANDALOSOS/b3863da13e0a47c005453b57ef7320cf5bff1525172d4c428b2d0540245dd184114571.jpeg">
+                <img src="IMG/O/OSOS-ESCANDALOSOS/pack-jardin-osos-escandalosos-diserapalo.jpg">
                 <p class="parrafo">OSOS ESCANDALOSOS
                 </p>
             </div>
@@ -2675,7 +2807,15 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PANDA/b068869e3cc5092d622b25107ef1a2204e40fbbffc4e8c6887dcd4cda5c851de114571.jpeg">
+                <img src="IMG/P/PANDA/panda-2-dulce-juana.jpg">
+                <p class="parrafo"> PANDA
+                </p>   
+            </div>                 
+        </main>
+
+        <main class="container_card">
+            <div class="card ">
+                <img src="IMG/P/PANDA/panda-dulce-juana.jpg">
                 <p class="parrafo"> PANDA
                 </p>   
             </div>                 
@@ -2708,7 +2848,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PAW-PATROL/271501960_975265540008380_6734180753530822398_n.jpg">
+                <img src="IMG/P/PAW-PATROL/PAW-PATROL-NIÑA.png">
                 <p class="parrafo"> PAW PATROL
                 </p> 
             </div>                   
@@ -2716,7 +2856,15 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PAYASO-PLIM-PLIM/eb552d872eb0f4cba57f67029337999797a8b33d80c3ba30c8d1314963505601114571.jpeg">
+                <img src="IMG/P/PAW-PATROL/PAW-PATROL-NIÑO.png">
+                <p class="parrafo"> PAW PATROL
+                </p> 
+            </div>                   
+        </main>
+
+        <main class="container_card">
+            <div class="card ">
+                <img src="IMG/P/PAYASO-PLIM-PLIM/plim-plim-dulce-juana.jpg">
                 <p class="parrafo"> PAYASO PLIM PLIM
                 </p>     
             </div>               
@@ -2724,7 +2872,15 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PEPPA-PIG/271520560_975265220008412_2871271049636855684_n.jpg">
+                <img src="IMG/P/PAYASO-PLIM-PLIM/plim-plim-rosa-1-301x301-dulce-juana.jpg">
+                <p class="parrafo"> PAYASO PLIM PLIM
+                </p>     
+            </div>               
+        </main>
+
+        <main class="container_card">
+            <div class="card ">
+                <img src="IMG/P/PEPPA-PIG/PEPPA-PIG.png">
                 <p class="parrafo"> PEPPA PIG
                 </p>   
             </div>                 
@@ -2760,15 +2916,7 @@
                 <p class="parrafo"> POLLY POCKET
                 </p>     
             </div>               
-        </main>
-
-        <main class="container_card">
-            <div class="card ">
-                <img src="IMG/P/POP-IT/7f72d9214c8da2fe20b5dcdd8642b8be5b87d39c2a93ed95360a640b862ff128114571.jpeg">
-                <p class="parrafo"> POP IT
-                </p>  
-            </div>                  
-        </main>
+        </main> 
 
         <main class="container_card">
             <div class="card ">
@@ -2780,7 +2928,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PRINCESA-BELLA/0b5ad26347f7958d92522272f84def8dd5252a0b5975a7373931a9886eec3255114571.jpeg">
+                <img src="IMG/P/PRINCESA-BELLA/pack-jardin-bella-diserapalo.jpg">
                 <p class="parrafo"> PRINCESA BELLA
                 </p> 
             </div>                   
@@ -2788,7 +2936,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PRINCESA-BLANCANIEVES/6dd055cf44e206eeea9b7dd62dad3b5753f2ca14259267a83912e431cfd48889114571.jpeg">
+                <img src="IMG/P/PRINCESA-BLANCANIEVES/balancanieves-2-3-dulce-juana.jpg">
                 <p class="parrafo"> PRINCESA BLANCANIEVES
                 </p> 
             </div>                   
@@ -2796,7 +2944,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PRINCESA-CENICIENTA/8765fe8016d736615e346bb91a7cf535f489687a01304cd3f2bf74c67bff5ca8114571.jpeg">
+                <img src="IMG/P/PRINCESA-CENICIENTA/cenicienta-dulce-juana.jpg">
                 <p class="parrafo"> PRINCESA CENICIENTA
                 </p>  
             </div>                  
@@ -2812,7 +2960,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PRINCESA-JAZMIN-(ALADINO)/028b2519635b0874617cb26e2196c6726e6351d32af6dfd2d93a69ba37cd7dcf114571.jpeg">
+                <img src="IMG/P/PRINCESA-JAZMIN-(ALADINO)/jazmin-dulce-juana.jpg">
                 <p class="parrafo"> PRINCESA JAZMIN
                 </p>  
             </div>                  
@@ -2828,7 +2976,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PRINCESA-MULAN/4020cdb7d84280f8a0ba60b715f278c128f5e83c5b82a87e275b494fba860c5c114571.jpeg">
+                <img src="IMG/P/PRINCESA-MULAN/mulan-3-dulce-juana.jpg">
                 <p class="parrafo"> PRINCESA MULAN
                 </p>    
             </div>                
@@ -2844,7 +2992,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PRINCESA-RAPUNZEL/b9b0e5c53dcb50f783747602ad23e92dd79cf700a0122ca619b9a234e997f9b7114571.jpeg">
+                <img src="IMG/P/PRINCESA-RAPUNZEL/pack-jardin-rapunzel-1-diserapalo.jpg">
                 <p class="parrafo"> PRINCESA RAPUNZEL
                 </p> 
             </div>                   
@@ -2852,7 +3000,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PRINCESA-SOFIA/273175980_990819691786298_5761944230949406221_n.jpg">
+                <img src="IMG/P/PRINCESA-SOFIA/princesa-sofia-1.jpg">
                 <p class="parrafo"> PRINCESA SOFIA
                 </p>                    
             </div>
@@ -2860,7 +3008,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PRINCESA-TIANA-(LA-PRINCESA-Y-EL-SAPO)/454f5b6d61ddcd92a01bc3c8d01b24fc257226234661dd60409f9c6ffa0f5b23114571.jpeg">
+                <img src="IMG/P/PRINCESA-TIANA-(LA-PRINCESA-Y-EL-SAPO)/la-princesa-y-el-sapo-dulce-juana.jpg">
                 <p class="parrafo"> PRINCESA TIANA
                 </p>   
             </div>                 
@@ -2868,7 +3016,7 @@
 
         <main class="container_card">
             <div class="card ">
-                <img src="IMG/P/PRINCESAS-DISNEY/271208044_975265186675082_1515220609576096035_n.jpg">
+                <img src="IMG/P/PRINCESAS-DISNEY/PRINCESAS.png">
                 <p class="parrafo"> PRINCESAS DISNEY
                 </p> 
             </div>                   
@@ -2885,6 +3033,14 @@
         <main class="container_card">
             <div class="card ">
                 <img src="IMG/P/PUPPY-DOG/pack-jardin-pug-dulces-diserapalo.jpg">
+                <p class="parrafo"> PUPPY DOG
+                </p>  
+            </div>                  
+        </main>
+
+        <main class="container_card">
+            <div class="card ">
+                <img src="IMG/P/PUPPY-DOG/pack-jardin-puppy-dog-diserapalo.jpg">
                 <p class="parrafo"> PUPPY DOG
                 </p>  
             </div>                  
@@ -2940,7 +3096,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/P/PAW-PATROL/271591130_975265573341710_5901961583503171614_n.jpg">
+                <img src="IMG/P/PAW-PATROL/PAW-PATROL-NIÑA.png">
                 <p class="parrafo">PAW PATROL
                 </p>
             </div>
@@ -2948,7 +3104,15 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/P/PAYASO-PLIM-PLIM/16e6aedf5787cf986cfe4d03c629aa88c26e5c767f5463d8344fc2053f99e980114571.jpeg">
+                <img src="IMG/P/PAW-PATROL/PAW-PATROL-NIÑO.png">
+                <p class="parrafo">PAW PATROL
+                </p>
+            </div>
+        </main>
+
+        <main class="container_card">
+            <div class="card">
+                <img src="IMG/P/PAYASO-PLIM-PLIM/plim-plim-dulce-juana.jpg">
                 <p class="parrafo">PAYASO PLIM PLIM
                 </p>
             </div>
@@ -2956,7 +3120,15 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/P/PIÑON-FIJO/pack-jardin-pinon-fijo-diserapalo.jpg">
+                <img src="IMG/P/PAYASO-PLIM-PLIM/plim-plim-rosa-1-301x301-dulce-juana.jpg">
+                <p class="parrafo">PAYASO PLIM PLIM
+                </p>
+            </div>
+        </main>
+
+        <main class="container_card">
+            <div class="card">
+                <img src="IMG/P/PIÑON-FIJO/piñon-fijo-dulce-juana.jpg">
                 <p class="parrafo">PIÑON FIJO
                 </p>
             </div>
@@ -2972,7 +3144,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/P/PLANTAS-VS-ZOMBIE/271489104_975269876674613_2363557157371423419_n.jpg">
+                <img src="IMG/P/PLANTAS-VS-ZOMBIE/PLANTS-VS-ZOMBIES.png">
                 <p class="parrafo">PLANTAS VS ZOMBIE
                 </p>
             </div>
@@ -2988,7 +3160,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/P/POCOYO/900d99a030bd6dc6b4dc53542b6503304aa3e3c6fcd575e527ec8bbdba1d3fec114571.jpeg">
+                <img src="IMG/P/POCOYO/pocoyo-dulce-juana.jpg">
                 <p class="parrafo">POCOYO
                 </p>
             </div>
@@ -2996,7 +3168,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/P/POKEMON/pack-jardin-pikachu-diserapalo.jpg">
+                <img src="IMG/P/POKEMON/picachu-dulce-juana.jpg">
                 <p class="parrafo">POKEMON
                 </p>
             </div>
@@ -3012,7 +3184,15 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/P/POPY/271496553_975285073339760_1489882488023047682_n.jpg">
+                <img src="IMG/P/POP-IT/pack-jardin-pop-it-nena-diserapalo.jpg">
+                <p class="parrafo">POP IT
+                </p>
+            </div>
+        </main>
+
+        <main class="container_card">
+            <div class="card">
+                <img src="IMG/P/POPY/popy.jpg">
                 <p class="parrafo">POPY
                 </p>
             </div>
@@ -3020,7 +3200,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/P/POWER-RANGERS/271538763_975269923341275_5669209250556083694_n.jpg">
+                <img src="IMG/P/POWER-RANGERS/POWERS-RANGERS.png">
                 <p class="parrafo">POWER RANGERS
                 </p>
             </div>
@@ -3028,7 +3208,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/P/POWER-ROCKER/271545104_975265503341717_5609740851378462780_n.jpg">
+                <img src="IMG/P/POWER-ROCKER/MINNI-ROCKETS.png">
                 <p class="parrafo">POWER ROCKER
                 </p>
             </div>
@@ -3045,6 +3225,14 @@
         <main class="container_card">
             <div class="card ">
                 <img src="IMG/R/RALPH/ralph-dulce-juana.jpg">
+                <p class="parrafo"> RALPH
+                </p> 
+            </div>                   
+        </main>
+
+        <main class="container_card">
+            <div class="card ">
+                <img src="IMG/R/RALPH/pack-jardin-ralph-diserapalo.jpg">
                 <p class="parrafo"> RALPH
                 </p> 
             </div>                   
@@ -3096,19 +3284,11 @@
                 <p class="parrafo">RACING
                 </p>
             </div>
-        </main>
+        </main> 
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/R/RALPH/pack-jardin-ralph-diserapalo.jpg">
-                <p class="parrafo">RALPH
-                </p>
-            </div>
-        </div>
-
-        <main class="container_card">
-            <div class="card">
-                <img src="IMG/R/REY-LEON/f57570a37487e5ee235872d550f86df5c904bb31b111cca4741adf88c35fe1b2114571.jpeg">
+                <img src="IMG/R/REY-LEON/rey-leon-dulce-juana.jpg">
                 <p class="parrafo">REY LEON
                 </p>
             </div>
@@ -3124,7 +3304,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/R/RIVER/69c60028790a004392544ce875093f919191791e12415a6536f5cd316ce93e2b114571.jpeg">
+                <img src="IMG/R/RIVER/river-2-1-dulce-juana.jpg">
                 <p class="parrafo">RIVER
                 </p>
             </div>
@@ -3132,7 +3312,15 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/R/ROBLOX/2067dd2fe44fde81aa9dd0196d2047dc5539575fb6192b955141ce5d98415f5c114571.jpeg">
+                <img src="IMG/R/ROBLOX/ROBLOX-NENA-dulce-juana.jpg">
+                <p class="parrafo">ROBLOX
+                </p>
+            </div>
+        </main>
+
+        <main class="container_card">
+            <div class="card">
+                <img src="IMG/R/ROBLOX/ROBLOX.png">
                 <p class="parrafo">ROBLOX
                 </p>
             </div>
@@ -3196,14 +3384,6 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/S/simones/2-simones-frutillita-301x301-dulce-juana.jpg">
-                <p class="parrafo">SIMONES
-                </p>
-            </div>
-        </main>
-
-        <main class="container_card">
-            <div class="card">
                 <img src="IMG/S/sing/pack-jardin-sing-2-diserapalo.jpg">
                 <p class="parrafo">SING
                 </p>
@@ -3244,24 +3424,8 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/S/spirit-el-caballo/d73f970f50a53eee6d9fe5d466df3e87f1abb704da60ddb4b775f27c40e9ae22114571.jpeg">
-                <p class="parrafo">SPIRIT EL CABALLO
-                </p>
-            </div>
-        </main>
-
-        <main class="container_card">
-            <div class="card">
                 <img src="IMG/S/squid-game/SQUID-GAME-ROSA-dulce-juana.jpg">
                 <p class="parrafo">SQUID GAME
-                </p>
-            </div>
-        </main>
-
-        <main class="container_card">
-            <div class="card">
-                <img src="IMG/S/stich/4b7bce45ef3ef1ce593583fc404420a35a857f1dd4e2a1124efbcb72925b8a07114571.jpeg">
-                <p class="parrafo">STICH
                 </p>
             </div>
         </main>
@@ -3278,14 +3442,6 @@
             <div class="card">
                 <img src="IMG/S/super-cute/SUPER-CUTE-ABIGAIL.jpeg">
                 <p class="parrafo">SUPER CUTE
-                </p>
-            </div>
-        </main>
-
-        <main class="container_card">
-            <div class="card">
-                <img src="IMG/S/super-heroes/superchicas-301x301-dulce-juana.png">
-                <p class="parrafo">SUPER HEROES
                 </p>
             </div>
         </main>
@@ -3348,7 +3504,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/S/shrek/794a76b1d8649e8b60de8a15e217d639a70c387baa9b78c4fd1fa01eef983cd3114571.jpeg">
+                <img src="IMG/S/shrek/shrek-2-dulce-juana.jpg">
                 <p class="parrafo">SHERK
                 </p>
             </div>
@@ -3372,6 +3528,14 @@
 
         <main class="container_card">
             <div class="card">
+                <img src="IMG/S/simones/14-laura-santino.jpg">
+                <p class="parrafo">SIMONES
+                </p>
+            </div>
+        </main>
+
+        <main class="container_card">
+            <div class="card">
                 <img src="IMG/S/snoopy/pack-jardin-snoopy-diserapalo.jpg">
                 <p class="parrafo">SNOOPY
                 </p>
@@ -3380,7 +3544,15 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/S/sonic/1-sonic-dulce-juana.jpg">
+                <img src="IMG/S/sonic/6-sonic-dulce-juana.jpg">
+                <p class="parrafo">SONIC
+                </p>
+            </div>
+        </main>
+
+        <main class="container_card">
+            <div class="card">
+                <img src="IMG/S/sonic/SONIC-8-laura-santino.png">
                 <p class="parrafo">SONIC
                 </p>
             </div>
@@ -3404,7 +3576,15 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/S/squid-game/273027702_990818795119721_1468300831211838792_n.jpg">
+                <img src="IMG/S/spirit-el-caballo/spirit-1-301x301-dulce-juana.jpg">
+                <p class="parrafo">SPIRIT EL CABALLO
+                </p>
+            </div>
+        </main>
+
+        <main class="container_card">
+            <div class="card">
+                <img src="IMG/S/squid-game/squid-game-2-dulce-juana.jpg">
                 <p class="parrafo">SQUID GAME
                 </p>
             </div>
@@ -3412,7 +3592,15 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/S/star-wars/baby-yoda-2-dulce-juana.jpg">
+                <img src="IMG/S/squid-game/SQUID-GAME-ROSA-dulce-juana.jpg">
+                <p class="parrafo">SQUID GAME
+                </p>
+            </div>
+        </main>
+
+        <main class="container_card">
+            <div class="card">
+                <img src="IMG/S/star-wars/star-wars-dulce-juana.jpg">
                 <p class="parrafo">STAR WARS
                 </p>
             </div>
@@ -3452,7 +3640,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/S/super-wings/270152907_979659322902335_5676524359039126841_n.jpg">
+                <img src="IMG/S/super-wings/super-wings-dulce-juana.jpg">
                 <p class="parrafo">SUPER WINGS
                 </p>
             </div>
@@ -3460,7 +3648,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/S/superman/975ed594bb4279f817c8b0f5523362cda063c712418033385bc83c867c8d795e114571.jpeg">
+                <img src="IMG/S/superman/SUPERMAN.png">
                 <p class="parrafo">SUPERMAN
                 </p>
             </div>
@@ -3468,7 +3656,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/S/supermario-bross/271610832_975264563341811_6826584883229210455_n.jpg">
+                <img src="IMG/S/supermario-bross/mario-bross.jpg">
                 <p class="parrafo">SUPERMARIO BROSS
                 </p>
             </div>
@@ -3492,7 +3680,7 @@
 
         <main class="container_card">
             <div class="card">      
-                <img src="IMG/T/TIK-TOK/271125983_975265443341723_775010168505602596_n.jpg">
+                <img src="IMG/T/TIK-TOK/TIK-TOK-NIÑA.png">
                 <p class="parrafo">TIK TIK
                 </p>
             </div>
@@ -3500,7 +3688,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/T/TIK-TOK/271533209_975265610008373_7350173229830591362_n.jpg">
+                <img src="IMG/T/TIK-TOK/TIK-TOK-NIÑO.png">
                 <p class="parrafo">TIK TOK
                 </p>
             </div>
@@ -3512,15 +3700,7 @@
                 <p class="parrafo">TINKER BELL
                 </p>    
             </div>
-        </main>
-
-        <main class="container_card">
-            <div class="card">
-                <img src="IMG/T/topa/topa-dulce-juana.jpg">
-                <p class="parrafo">TOPA
-                </p>
-            </div>
-        </main>
+        </main> 
 
         <main class="container_card">
             <div class="card">
@@ -3676,7 +3856,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/T/TRANSFORMERS/1c77b7278e31d01a56a09d3347e65042b6c15476cdc18eee6e7236160444962b114571.jpeg">
+                <img src="IMG/T/TRANSFORMERS/Muestra-Transformers.png">
                 <p class="parrafo">TRANSFORMERS
                 </p>
             </div>
@@ -3708,7 +3888,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/U/UNICORNIO/271535822_975265403341727_8480714947902974068_n.jpg">
+                <img src="IMG/U/UNICORNIO/UNICORNIO.png">
                 <p class="parrafo">UNICORNIO
                 </p>
             </div>
@@ -3724,7 +3904,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/V/vacaLola/0c1ba13e676fc8422e0ca462ebacc5b472a3196681b9a4703a2d9a9fa089e20d114571.jpeg">
+                <img src="IMG/V/vacaLola/vaca-lola.jpeg">
                 <p class="parrafo">VACA LOLA
                 </p>
             </div>
@@ -3732,7 +3912,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/V/vampirina/270780745_979659282902339_4476283138385441585_n.jpg">
+                <img src="IMG/V/vampirina/vampirina-dulce-juana.jpg">
                 <p class="parrafo">VAMPIRINA
                 </p>
             </div>
@@ -3772,7 +3952,7 @@
 
         <main class="container_card">
             <div class="card">
-                <img src="IMG/V/venom/269631405_979658919569042_3717109971380959146_n.jpg">
+                <img src="IMG/V/venom/venom.jpg">
                 <p class="parrafo">VENOM
                 </p>
             </div>
@@ -3803,6 +3983,9 @@
                 </a>
                 <a href="https://www.instagram.com/laadfs83/?igshid=YmMyMTA2M2Y%3D" target="_blank">
                     <img class="redes" src="IMG/instagram.jpeg">
+                </a>
+                <a href="https://www.tiktok.com/@luciana_1977" target="_blank"  >
+                    <img class="redes" src="IMG/tik-tok.jpeg">
                 </a>
             </div>
             <div class="contacto ">
