@@ -1,18 +1,13 @@
- 
-
-*{
+ *{
     margin: 0;
     padding: 0;
     object-fit: cover;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
-
- 
+} 
 
 @media only screen and (max-width:375px ) and (min-width:200px) {
     body {
-        background:radial-gradient(pink , violet, white  );
+        background:radial-gradient(pink , violet, white  ); 
     }
 
     html {
@@ -243,9 +238,7 @@
         flex-wrap: wrap;      
         overflow-x: auto;
         overscroll-behavior-inline: contain;
-        margin: 0; 
-        background-color: white;   
-         
+        margin: 0;           
     }
 
     .section::-webkit-scrollbar{
@@ -253,16 +246,16 @@
     }
 
     .section .card {
-        height: 100%;
+        height: auto;
         width: auto;
         margin-left: 8px;
         margin-right: 8px;
-        margin-top: 10px; 
+        margin-top: 10px;  
     }
 
     .section .card a {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         text-decoration: none;
      }
 
@@ -312,7 +305,6 @@
         border-radius: 50%;
     }
  
-
     footer div p {
         font-size: 15px;
     }
