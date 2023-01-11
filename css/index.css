@@ -678,8 +678,7 @@
         flex-wrap: wrap;      
         overflow-x: auto;
         overscroll-behavior-inline: contain;
-        margin: 0; 
-        background-color: white;    
+        margin: 0;   
     }
 
     .section::-webkit-scrollbar{
@@ -687,7 +686,7 @@
     }
 
     .card{
-        height: 100%;
+        height: auto;
         width: auto;
         margin-left: 8px;
         margin-right: 8px;
@@ -695,8 +694,8 @@
     }
 
     .card a {
-        width: 230px;
-        height: 240px; 
+        width: 220px;
+        height: 230px; 
         text-decoration: none; 
     }
 
@@ -1139,8 +1138,7 @@
         flex-wrap: wrap;      
         overflow-x: auto;
         overscroll-behavior-inline: contain;
-        margin: 0;  
-        background-color: white;   
+        margin: 0;    
     }
 
     .section::-webkit-scrollbar{
@@ -1148,7 +1146,7 @@
     }
 
     .section .card{
-        height: 100%;
+        height: auto;
         width: auto;
         margin-left: 8px;
         margin-right: 8px;
@@ -1156,8 +1154,8 @@
     }
 
     .section .card a {
-        width: 250px;
-        height: 280px; 
+        width: 230px;
+        height: 260px; 
         text-decoration: none;
     }
 
@@ -1395,8 +1393,7 @@
 
     header .portFon  {
         width: 100%;
-        height: auto;
-        background:radial-gradient(pink , violet, white  );
+        height: auto; 
         display: flex;
         flex-direction: row;
         justify-content:space-between;
@@ -1441,8 +1438,7 @@
     .div_img a img {
         margin: 0;
         height: 200px;
-        width: 100%;    
-        background:radial-gradient(pink , violet, white  );   
+        width: 100%;      
  
     }
 
@@ -1471,8 +1467,7 @@
         width: 100%;
         height: 450px;
         margin-top: 0px; 
-        padding: 0px;
-        background:radial-gradient(pink , violet, white  );
+        padding: 0px; 
     }
 
     .header_img img {
@@ -1640,8 +1635,7 @@
         margin: auto;    
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;  
-        background-color: white;      
+        justify-content: center;       
     }
 
     .section .card {
@@ -1649,11 +1643,11 @@
         flex-wrap: wrap; 
         justify-content: center;
         height: auto;
-        width: 180px;
+        width: 170px;
         margin-top: 25px;  
         background-color: transparent;  
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
         margin-bottom: 25px; 
     }
 
@@ -1664,16 +1658,22 @@
     }
 
     .section .card a {
-        width: 100%;
-        height:270px;
+        width: 170px;
+        height:200px;
         margin: auto;
         text-decoration: none; 
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
      }
 
     .card a img {
         width:100%;
-        height:200px;  
+        height:100%;  
         margin: auto;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
     }
 
     .section .card  .parrafo {
@@ -1817,9 +1817,9 @@
 
 
     .fondoImg .aWsp {
-        margin-left: 850px;
+        margin-left: 1080px;
         margin-right: 60px;
-        margin-bottom: 80px;  
+        margin-bottom: 80px;   
 
     }
 
@@ -1845,8 +1845,7 @@
     header .portFon  {
         width: 100%;
         height: auto;
-        margin: auto;
-        background:radial-gradient(pink , violet, white  );
+        margin: auto; 
         display: flex;
         flex-direction: row;
         align-content: space-around;
@@ -2094,8 +2093,7 @@
         display: flex; 
         flex-wrap: wrap; 
         justify-content: center;
-        padding: 2px;
-        background-color: white;  
+        padding: 2px; 
      
     }
 
@@ -2104,12 +2102,12 @@
         flex-wrap: wrap; 
         justify-content: center;
         height: auto;
-        width: 180px;
+        width: 170px;
         margin-top: 28px;  
         margin-bottom: 28px;  
         background-color: transparent;  
-        margin-left: 5px;
-        margin-right: 5px; 
+        margin-left: 8px;
+        margin-right: 8px; 
     }
 
     .section .card:hover {
@@ -2119,8 +2117,8 @@
     }
 
     .section .card a {
-        width: 100%;
-        height: 275px;
+        width: 170px;
+        height: 200px;
         margin: auto;
         text-decoration: none;  
 
@@ -2128,7 +2126,7 @@
 
     .card a img {
         width:100%;
-        height:210px; 
+        height:100%; 
         margin: auto; 
 
 

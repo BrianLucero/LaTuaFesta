@@ -117,22 +117,24 @@
 
     .container_card{
         width: 100%;
-        height: auto;
+        height: 200px;
         margin: auto;
         padding: 0;
         display: flex;
         justify-content: center;  
+        margin-bottom: 20px; 
     }
 
     .card{
-        width: 220px;
-        height: 220px;
-        margin:0px;
+        width: 200px;
+        height: 200px;
+        margin:0;
+        margin-bottom: 20px;
     }
 
     .card  img {
-        width: 220px; 
-        height: 220px;           
+        width: 100%; 
+        height: 100%;           
         object-fit: cover;
         box-sizing: border-box;
         margin: 0px;
@@ -389,22 +391,24 @@
 
     .container_card{
         width: 100%;
-        height: auto;
+        height: 210px;
         margin: auto; 
         padding: 0;
         display: flex;
-        justify-content: center;  
+        justify-content: center; 
+        margin-bottom: 20px; 
     }
 
     .card{
-        width: 230px;
-        height: 230px;
-        margin:auto;
+        width: 210px;
+        height: 210px;
+        margin:0;
+        margin-bottom: 20px;
     }
 
     .card  img {
-        width: 230px;  
-        height: 230px;   
+        width: 100%;  
+        height: 100%;   
         object-fit: cover;
         box-sizing: border-box;
         margin: 0px;
@@ -685,7 +689,7 @@
 
     .container_card{
         width: 100%;
-        height: auto;
+        height: 220px;
         margin: auto; 
         padding: 0;
         display: flex;
@@ -693,14 +697,15 @@
     }
 
     .card{
-        width: 260px;
-        height: 260px;
-        margin:auto; 
+        width: 220px;
+        height: 220px;
+        margin:0; 
+        margin-bottom: 20px;
     }
 
     .card  img {
-        width: 260px;  
-        height: 260px;          
+        width: 100%;  
+        height: 100%;          
         object-fit: cover;
         box-sizing: border-box;
         margin: auto; 
@@ -910,7 +915,7 @@
         flex-wrap: wrap;
         height: 130px;
         background: black;
-        width: 100vw;
+        width: 100%;
         text-decoration: none;
     }
 
@@ -988,7 +993,7 @@
 
     .container_card{
         width: 100%;
-        height: auto;
+        height: 230px;
         margin: auto;
         padding: 0;
         display: flex;
@@ -996,14 +1001,15 @@
     }
 
     .card{
-        width: 260px;
-        height: 260px;
-        margin:auto; 
+        width: 230px;
+        height: 230px;
+        margin:0; 
+        margin-bottom: 20px;
     }
 
     .card  img {
-        width: 260px;  
-        height:260px;          
+        width: 100%;  
+        height:100%;          
         object-fit: cover;
         box-sizing: border-box;
         margin: auto; 
@@ -1234,13 +1240,12 @@
     }
 
     .div_img{ 
-        margin: 0;
-        margin-top: 92px;
+        margin: 0; 
         display: none;
         flex-wrap: wrap;
         height: 120px;
         background: black;
-        width: 100vw;
+        width: 100%;
         height: 200px;
         text-decoration: none;
     }
@@ -1255,10 +1260,12 @@
     .div_img a img {
         height: 200px;
         width: 100%; 
+        margin: 0;
     }
 
     .boton_hbs {
         display: block;
+        margin: 0;
     }
 
     .boton_hbs  .menu {
@@ -1279,8 +1286,7 @@
 
     .header_img {
         width: 100%;
-        height: 450px;
-        margin-top: 20px;
+        height: 450px; 
         margin-bottom: 0px;
         padding: 0px;
     }
@@ -1336,7 +1342,7 @@
 
     .container_card {
         width: 100%;
-        height: auto;
+        height: 320px;
         margin: auto;
         padding: 0;
         display: flex;
@@ -1344,17 +1350,18 @@
     }
 
     .card{
-        width: 350px;
-        height: 350px;
-        margin:auto; 
+        width: 320px;
+        height: 320px;
+        margin:0; 
+        margin-bottom: 40px;
     }    
 
     .card img {
-        width: 350px;  
-        height: 350px;          
+        width: 100%;  
+        height: 100%;          
         object-fit: cover;
         box-sizing: border-box;
-        margin: auto;  
+        margin: 0;  
     }
 
     .container_card .parrafo {
@@ -1475,7 +1482,7 @@
     }    
 
     .fondoImg .aWsp {
-        margin-left: 850px;
+        margin-left: 1080px;
         margin-right: 60px;
         margin-bottom: 110px; 
     }
@@ -1626,7 +1633,7 @@
 
     .container_card {
         width: 100%;
-        height: 550px;
+        height: 400px;
         margin: auto; 
         padding: 0;
         display: flex;
@@ -1634,17 +1641,17 @@
     } 
 
     .card {
-        width: 350px;
-        height: 350px;
-        margin:auto; 
+        width: 400px;
+        height: 400px;
+        margin:0; 
     }    
 
     .card img {
-        width: 350px;  
-        height: 350px;          
+        width: 100%;  
+        height: 100%;          
         object-fit: cover;
         box-sizing: border-box;
-        margin: auto;  
+        margin: 0;  
     }
 
     .container_card .parrafo {

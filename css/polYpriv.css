@@ -659,8 +659,7 @@
         height: auto;
         margin-left: 45px;
         margin-right: 45px;
-        background:white;
-        border: 1px solid black;
+        background:white; 
         position: relative;
         top: 0;
     }
@@ -715,10 +714,10 @@
 
     .polYpriv{
         width: 85%;
-        height:280px;
+        height:auto;
         margin: auto;
-        margin-top: 200px;
-        margin-bottom: 200px;
+        margin-top: 250px;
+        margin-bottom: 280px;
         background-color: transparent;
         display: flex;
         justify-content: center;
@@ -730,6 +729,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .polYpriv li p {
+        font-size: 20px;
     }
 
     .polYpriv li p a {
@@ -857,31 +860,49 @@
     .fondoImg {
         margin-left: 45px;
         margin-right: 45px;
-        background-color: white;
-        border: 1px solid black;
+        background-color: white; 
         height: auto;
     }
 
     header{ 
         width: 100%;  
-        height: 220px;
+        height: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center; 
         align-content: center;
-        position: relative;
-        top: 0;
     } 
 
-    header .portatil {
-        margin-top: 20px;
-        z-index: 10;
+    header .portFon  {
+        width: 100%;
+        height: auto; 
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
     }
 
+    header .portFon .port {
+        display: flex;
+        justify-content: end;
+    }
+
+    .portFon .loFondo { 
+        display: flex;
+        margin: auto;       
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .portFon .loFondo img {
+        width:140px;
+        height: auto;
+    }
+    
     .div_img{ 
         margin: auto;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         height: 220px;
         background: black;
@@ -944,8 +965,8 @@
         width: 85%;
         height:auto;
         margin: auto;
-        margin-top: 200px;
-        margin-bottom: 200px; 
+        margin-top: 150px;
+        margin-bottom: 150px; 
     }
 
     .polYpriv h3 {
@@ -1012,14 +1033,13 @@
     .fondoImg {
         margin-left: 45px;
         margin-right: 45px;
-        background-color: white;
-        border: 1px solid black;
+        background-color: white; 
         height: auto;
     }
 
     header{         
         width: 100%;  
-        height: 290px;
+        height: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1029,14 +1049,37 @@
         top: 0
     }
 
-    header .portatil {
-        margin-top: 20px;
-
+    header .portFon  {
+        width: 100%;
+        height: auto;
+        margin: auto; 
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: space-around;
     }
+
+    header .portFon .port {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portFon .loFondo { 
+        margin: auto;       
+        position: absolute;
+        left: 30px;
+        top: 0;
+    }
+
+    .portFon .loFondo img {
+        width:140px;
+        height: auto;
+    }
+
 
     .div_img{ 
         margin: 0;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         height: 290px;
         background: black;
