@@ -504,6 +504,21 @@
         display: none;
     }
 
+    .pVenta {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+
+    .pVenta p {
+        text-align: center;
+        height: auto;
+        margin: auto;
+        animation: fisico 15s infinite ;
+    }
+
     .div_img{ 
         margin: 0;
         display: flex;
@@ -928,6 +943,15 @@
     
     }
 
+    @keyframes fisico {
+        0% { color: black;  }
+        25% { color:yellow; }
+        50% { color:violet;  }
+        75% { color: green;  }
+        100% { color:white; }
+        
+    }
+
 }
 
 @media only screen and (max-width:920px ) and (min-width:426px) {
@@ -959,6 +983,21 @@
 
     header .portatil {
         display: none;
+    }
+
+        .pVenta {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+
+    .pVenta p {
+        text-align: center;
+        height: auto;
+        margin: auto;
+        animation: fisico 15s infinite ;
     }
 
     .fondoImg {
@@ -1377,6 +1416,15 @@
         margin-left: 10px;
       
     
+    }
+
+    @keyframes fisico {
+        0% { color: black;  }
+        25% { color:yellow; }
+        50% { color:violet;  }
+        75% { color: green;  }
+        100% { color:white; }
+        
     }
 
 }
