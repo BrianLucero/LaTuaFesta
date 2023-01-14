@@ -52,7 +52,7 @@
         text-align: center;
         height: auto;
         margin: auto;
-        animation: fisico 15s infinite ;
+        /*animation: fisico 15s infinite ;*/
     }
 
     .div_img{ 
@@ -458,6 +458,8 @@
     
     }
 
+    /*
+
     @keyframes fisico {
         0% { color: black;  }
         25% { color:yellow; }
@@ -467,7 +469,7 @@
         
     }
 
-
+    */
         
     
 
@@ -516,7 +518,7 @@
         text-align: center;
         height: auto;
         margin: auto;
-        animation: fisico 15s infinite ;
+        
     }
 
     .div_img{ 
@@ -942,15 +944,7 @@
       
     
     }
-
-    @keyframes fisico {
-        0% { color: black;  }
-        25% { color:yellow; }
-        50% { color:violet;  }
-        75% { color: green;  }
-        100% { color:white; }
-        
-    }
+ 
 
 }
 
@@ -997,7 +991,7 @@
         text-align: center;
         height: auto;
         margin: auto;
-        animation: fisico 15s infinite ;
+        
     }
 
     .fondoImg {
@@ -1418,14 +1412,7 @@
     
     }
 
-    @keyframes fisico {
-        0% { color: black;  }
-        25% { color:yellow; }
-        50% { color:violet;  }
-        75% { color: green;  }
-        100% { color:white; }
-        
-    }
+ 
 
 }
 
